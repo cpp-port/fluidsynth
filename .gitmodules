@@ -1,0 +1,4 @@
+[submodule "fluidsynth"]
+	path = fluidsynth
+	url = ../../FluidSynth/fluidsynth
+	branch = master

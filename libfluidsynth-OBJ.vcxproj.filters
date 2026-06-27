@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers\fluid_dsound.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers\fluid_wasapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers\fluid_waveout.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers\fluid_winmidi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader\fluid_dls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_sys_cpp11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\gentables\fluid_ct2hz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\gentables\fluid_cb2amp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\gentables\fluid_concave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\gentables\fluid_convex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\gentables\fluid_pan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\gentables\fluid_interp_coeff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\gentables\fluid_interp_coeff_linear.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\gentables\fluid_interp_coeff_sinc7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_conv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_hash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_ringbuffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_settings.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_sys.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader\fluid_defsfont.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader\fluid_sfont.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader\fluid_sffile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader\fluid_samplecache.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_adsr_env.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_chorus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_iir_filter_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_iir_filter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_lfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rvoice.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rvoice_dsp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rvoice_event.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rvoice_mixer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rev.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rev_fdn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rev_freeverb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rev_lexverb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rev_dattorro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_chan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_event.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_gen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_mod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_synth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_synth_monopoly.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_synth_write_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_tuning.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_voice.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\midi\fluid_midi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\midi\fluid_midi_router.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\midi\fluid_seqbind.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\midi\fluid_seqbind_notes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\midi\fluid_seq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\midi\fluid_seq_queue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers\fluid_adriver.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers\fluid_mdriver.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers\fluid_audio_convert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\bindings\fluid_cmd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\bindings\fluid_filerenderer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\bindings\fluid_ladspa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader\fluid_dls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_sys_cpp11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\gentables\ConstExprArr.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_conv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_ringbuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluidsynth_priv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_sys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader\fluid_defsfont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader\fluid_sfont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader\fluid_sffile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader\fluid_samplecache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_adsr_env.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_chorus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_iir_filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_lfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rvoice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rvoice_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rvoice_mixer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_phase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rev.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rev_fdn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rev_freeverb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rev_lexverb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rev_dattorro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rev_filters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_chan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_gen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_mod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_synth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_tuning.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_voice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\midi\fluid_midi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\midi\fluid_midi_router.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers\fluid_adriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers\fluid_mdriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\bindings\fluid_cmd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\bindings\fluid_ladspa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\gen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\ladspa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\midi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\mod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\seq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\seqbind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\sfont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\shell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\synth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\voice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\include\fluidsynth\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\include\fluidsynth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\camilo\code\fluidsynth\src\VersionInfoLib.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5ADC7E16-E761-3F8C-9362-97AA2B373542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{60500229-3BAE-30FE-879F-63AA4B501383}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

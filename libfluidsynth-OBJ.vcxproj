@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{843F9D8C-70E3-3B7D-9936-175F4FC83FEA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>libfluidsynth-OBJ</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libfluidsynth-OBJ.dir\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libfluidsynth-OBJ.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libfluidsynth-OBJ</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libfluidsynth-OBJ.dir\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libfluidsynth-OBJ.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libfluidsynth-OBJ</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libfluidsynth-OBJ.dir\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libfluidsynth-OBJ.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libfluidsynth-OBJ</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\camilo\code\fluidsynth;C:\Users\camilo\code\fluidsynth\include;C:\Users\camilo\code\fluidsynth\fluidsynth\src;C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers;C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth;C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice;C:\Users\camilo\code\fluidsynth\fluidsynth\src\midi;C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils;C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader;C:\Users\camilo\code\fluidsynth\fluidsynth\src\bindings;C:\Users\camilo\code\fluidsynth\fluidsynth\include;C:\Users\camilo\code\fluidsynth\gcem-extracted\gcem-012ae73c6d0a2cb09ffe86475f5c6fba3926e200\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;FLUIDSYNTH_DLL_EXPORTS;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;FLUIDSYNTH_DLL_EXPORTS;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\camilo\code\fluidsynth;C:\Users\camilo\code\fluidsynth\include;C:\Users\camilo\code\fluidsynth\fluidsynth\src;C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers;C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth;C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice;C:\Users\camilo\code\fluidsynth\fluidsynth\src\midi;C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils;C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader;C:\Users\camilo\code\fluidsynth\fluidsynth\src\bindings;C:\Users\camilo\code\fluidsynth\fluidsynth\include;C:\Users\camilo\code\fluidsynth\gcem-extracted\gcem-012ae73c6d0a2cb09ffe86475f5c6fba3926e200\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\camilo\code\fluidsynth;C:\Users\camilo\code\fluidsynth\include;C:\Users\camilo\code\fluidsynth\fluidsynth\src;C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers;C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth;C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice;C:\Users\camilo\code\fluidsynth\fluidsynth\src\midi;C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils;C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader;C:\Users\camilo\code\fluidsynth\fluidsynth\src\bindings;C:\Users\camilo\code\fluidsynth\fluidsynth\include;C:\Users\camilo\code\fluidsynth\gcem-extracted\gcem-012ae73c6d0a2cb09ffe86475f5c6fba3926e200\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\camilo\code\fluidsynth;C:\Users\camilo\code\fluidsynth\include;C:\Users\camilo\code\fluidsynth\fluidsynth\src;C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers;C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth;C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice;C:\Users\camilo\code\fluidsynth\fluidsynth\src\midi;C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils;C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader;C:\Users\camilo\code\fluidsynth\fluidsynth\src\bindings;C:\Users\camilo\code\fluidsynth\fluidsynth\include;C:\Users\camilo\code\fluidsynth\gcem-extracted\gcem-012ae73c6d0a2cb09ffe86475f5c6fba3926e200\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;FLUIDSYNTH_DLL_EXPORTS;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;FLUIDSYNTH_DLL_EXPORTS;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\camilo\code\fluidsynth;C:\Users\camilo\code\fluidsynth\include;C:\Users\camilo\code\fluidsynth\fluidsynth\src;C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers;C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth;C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice;C:\Users\camilo\code\fluidsynth\fluidsynth\src\midi;C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils;C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader;C:\Users\camilo\code\fluidsynth\fluidsynth\src\bindings;C:\Users\camilo\code\fluidsynth\fluidsynth\include;C:\Users\camilo\code\fluidsynth\gcem-extracted\gcem-012ae73c6d0a2cb09ffe86475f5c6fba3926e200\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\camilo\code\fluidsynth;C:\Users\camilo\code\fluidsynth\include;C:\Users\camilo\code\fluidsynth\fluidsynth\src;C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers;C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth;C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice;C:\Users\camilo\code\fluidsynth\fluidsynth\src\midi;C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils;C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader;C:\Users\camilo\code\fluidsynth\fluidsynth\src\bindings;C:\Users\camilo\code\fluidsynth\fluidsynth\include;C:\Users\camilo\code\fluidsynth\gcem-extracted\gcem-012ae73c6d0a2cb09ffe86475f5c6fba3926e200\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\camilo\code\fluidsynth;C:\Users\camilo\code\fluidsynth\include;C:\Users\camilo\code\fluidsynth\fluidsynth\src;C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers;C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth;C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice;C:\Users\camilo\code\fluidsynth\fluidsynth\src\midi;C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils;C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader;C:\Users\camilo\code\fluidsynth\fluidsynth\src\bindings;C:\Users\camilo\code\fluidsynth\fluidsynth\include;C:\Users\camilo\code\fluidsynth\gcem-extracted\gcem-012ae73c6d0a2cb09ffe86475f5c6fba3926e200\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;FLUIDSYNTH_DLL_EXPORTS;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;FLUIDSYNTH_DLL_EXPORTS;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\camilo\code\fluidsynth;C:\Users\camilo\code\fluidsynth\include;C:\Users\camilo\code\fluidsynth\fluidsynth\src;C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers;C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth;C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice;C:\Users\camilo\code\fluidsynth\fluidsynth\src\midi;C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils;C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader;C:\Users\camilo\code\fluidsynth\fluidsynth\src\bindings;C:\Users\camilo\code\fluidsynth\fluidsynth\include;C:\Users\camilo\code\fluidsynth\gcem-extracted\gcem-012ae73c6d0a2cb09ffe86475f5c6fba3926e200\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\camilo\code\fluidsynth;C:\Users\camilo\code\fluidsynth\include;C:\Users\camilo\code\fluidsynth\fluidsynth\src;C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers;C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth;C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice;C:\Users\camilo\code\fluidsynth\fluidsynth\src\midi;C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils;C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader;C:\Users\camilo\code\fluidsynth\fluidsynth\src\bindings;C:\Users\camilo\code\fluidsynth\fluidsynth\include;C:\Users\camilo\code\fluidsynth\gcem-extracted\gcem-012ae73c6d0a2cb09ffe86475f5c6fba3926e200\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/camilo/code/fluidsynth/fluidsynth/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/camilo/code/fluidsynth/fluidsynth -BC:/Users/camilo/code/fluidsynth --check-stamp-file C:/Users/camilo/code/fluidsynth/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\camilo\code\fluidsynth\fluidsynth\cmake_admin\VersionResource.rc.in;C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth.cmake;C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\camilo\code\fluidsynth\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/camilo/code/fluidsynth/fluidsynth/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/camilo/code/fluidsynth/fluidsynth -BC:/Users/camilo/code/fluidsynth --check-stamp-file C:/Users/camilo/code/fluidsynth/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\camilo\code\fluidsynth\fluidsynth\cmake_admin\VersionResource.rc.in;C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth.cmake;C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\camilo\code\fluidsynth\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/camilo/code/fluidsynth/fluidsynth/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/camilo/code/fluidsynth/fluidsynth -BC:/Users/camilo/code/fluidsynth --check-stamp-file C:/Users/camilo/code/fluidsynth/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\camilo\code\fluidsynth\fluidsynth\cmake_admin\VersionResource.rc.in;C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth.cmake;C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\camilo\code\fluidsynth\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\config.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers\fluid_dsound.c" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers\fluid_wasapi.c" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers\fluid_waveout.c" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers\fluid_winmidi.c" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader\fluid_dls.cpp" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader\fluid_dls.h" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_sys_cpp11.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_sys_cpp11.cpp" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_file.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_file.cpp" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\gentables\fluid_ct2hz.cpp" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\gentables\fluid_cb2amp.cpp" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\gentables\fluid_concave.cpp" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\gentables\fluid_convex.cpp" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\gentables\fluid_pan.cpp" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\gentables\fluid_interp_coeff.cpp" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\gentables\fluid_interp_coeff_linear.cpp" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\gentables\fluid_interp_coeff_sinc7.cpp" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\gentables\ConstExprArr.hpp" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_conv.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_conv.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_hash.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_hash.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_list.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_list.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_ringbuffer.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_ringbuffer.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_settings.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_settings.h" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluidsynth_priv.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_sys.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\utils\fluid_sys.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader\fluid_defsfont.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader\fluid_defsfont.h" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader\fluid_sfont.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader\fluid_sfont.c" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader\fluid_sffile.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader\fluid_sffile.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader\fluid_samplecache.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\sfloader\fluid_samplecache.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_adsr_env.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_adsr_env.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_chorus.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_chorus.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_iir_filter_impl.cpp">
+      <FloatingPointModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Fast</FloatingPointModel>
+      <FloatingPointModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Fast</FloatingPointModel>
+      <FloatingPointModel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Fast</FloatingPointModel>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_iir_filter.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_iir_filter.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_lfo.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_lfo.h" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rvoice.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rvoice.c" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rvoice_dsp.cpp" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rvoice_event.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rvoice_event.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rvoice_mixer.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rvoice_mixer.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_phase.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rev.cpp" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rev.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rev_fdn.cpp" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rev_fdn.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rev_freeverb.cpp" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rev_freeverb.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rev_lexverb.cpp" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rev_lexverb.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rev_dattorro.cpp" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rev_dattorro.h" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\rvoice\fluid_rev_filters.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_chan.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_chan.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_event.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_event.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_gen.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_gen.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_mod.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_mod.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_synth.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_synth.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_synth_monopoly.c" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_synth_write_int.cpp" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_tuning.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_tuning.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_voice.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\synth\fluid_voice.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\midi\fluid_midi.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\midi\fluid_midi.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\midi\fluid_midi_router.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\midi\fluid_midi_router.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\midi\fluid_seqbind.c" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\midi\fluid_seqbind_notes.cpp" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\midi\fluid_seq.c" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\midi\fluid_seq_queue.cpp" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers\fluid_adriver.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers\fluid_adriver.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers\fluid_mdriver.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers\fluid_mdriver.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\drivers\fluid_audio_convert.cpp" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\bindings\fluid_cmd.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\bindings\fluid_cmd.h" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\bindings\fluid_filerenderer.c" />
+    <ClCompile Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\bindings\fluid_ladspa.c" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\bindings\fluid_ladspa.h" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\audio.h" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\event.h" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\gen.h" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\ladspa.h" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\log.h" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\midi.h" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\misc.h" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\mod.h" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\seq.h" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\seqbind.h" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\settings.h" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\sfont.h" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\shell.h" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\synth.h" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\types.h" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\voice.h" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\include\fluidsynth\version.h" />
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\include\fluidsynth.h" />
+    <ResourceCompile Include="C:\Users\camilo\code\fluidsynth\src\VersionInfoLib.rc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\camilo\code\fluidsynth\ZERO_CHECK.vcxproj">
+      <Project>{1EE652F9-5BAB-3720-9040-45623EECAC63}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

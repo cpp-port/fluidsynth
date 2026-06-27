@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\include\fluidsynth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\gen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\ladspa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\midi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\mod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\seq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\seqbind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\sfont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\shell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\synth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\fluidsynth\include\fluidsynth\voice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\code\fluidsynth\include\fluidsynth\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\camilo\code\fluidsynth\fluidsynth\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_dsound.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_wasapi.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_waveout.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_winmidi.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_dls.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_sys_cpp11.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_file.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_ct2hz.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_cb2amp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_concave.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_convex.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_pan.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_interp_coeff.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_interp_coeff_linear.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_interp_coeff_sinc7.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_conv.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_hash.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_list.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_ringbuffer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_settings.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_sys.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_defsfont.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_sfont.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_sffile.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_samplecache.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_adsr_env.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_chorus.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_iir_filter_impl.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_iir_filter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_lfo.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_rvoice.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_rvoice_dsp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_rvoice_event.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_rvoice_mixer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_rev.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_rev_fdn.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_rev_freeverb.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_rev_lexverb.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_rev_dattorro.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_chan.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_event.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_gen.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_mod.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_synth.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_synth_monopoly.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_synth_write_int.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_tuning.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_voice.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_midi.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_midi_router.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_seqbind.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_seqbind_notes.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_seq.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_seq_queue.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_adriver.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_mdriver.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_audio_convert.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_cmd.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_filerenderer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\fluid_ladspa.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\camilo\code\fluidsynth\src\libfluidsynth-OBJ.dir\$(Configuration)\VersionInfoLib.res">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5ADC7E16-E761-3F8C-9362-97AA2B373542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{AA950B45-253F-32D1-99DF-B07B97C71D2C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

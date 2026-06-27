@@ -1,0 +1,119 @@
+﻿  Building Custom Rule C:/Users/camilo/code/fluidsynth/fluidsynth/src/CMakeLists.txt
+  CMake is re-running because C:/Users/camilo/code/fluidsynth/src/CMakeFiles/generate.stamp dependency file is missing.
+  -- Building for: Visual Studio 18 2026
+  -- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.19045.
+  -- The C compiler identification is MSVC 19.51.36248.0
+  -- The CXX compiler identification is MSVC 19.51.36248.0
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe - skipped
+  -- Detecting C compile features
+  -- Detecting C compile features - done
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe - skipped
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Checking whether system has ANSI C header files
+  -- Looking for 8 include files dlfcn.h, ..., float.h
+  -- Looking for 8 include files dlfcn.h, ..., float.h - not found
+  -- ANSI C header files - not found
+  -- Looking for include file unistd.h
+  -- Looking for include file unistd.h - not found
+  -- Looking for DIR in sys/stat.h;sys/types.h;dirent.h
+  -- Looking for DIR in sys/stat.h;sys/types.h;dirent.h - not found.
+  -- Looking for string.h
+  -- Looking for string.h - found
+  -- Looking for strings.h
+  -- Looking for strings.h - not found
+  -- Looking for stdlib.h
+  -- Looking for stdlib.h - found
+  -- Looking for stdio.h
+  -- Looking for stdio.h - found
+  -- Looking for math.h
+  -- Looking for math.h - found
+  -- Looking for errno.h
+  -- Looking for errno.h - found
+  -- Looking for stdarg.h
+  -- Looking for stdarg.h - found
+  -- Looking for sys/mman.h
+  -- Looking for sys/mman.h - not found
+  -- Looking for sys/types.h
+  -- Looking for sys/types.h - found
+  -- Looking for sys/time.h
+  -- Looking for sys/time.h - not found
+  -- Looking for sys/stat.h
+  -- Looking for sys/stat.h - found
+  -- Looking for fcntl.h
+  -- Looking for fcntl.h - found
+  -- Looking for sys/socket.h
+  -- Looking for sys/socket.h - not found
+  -- Looking for netinet/in.h
+  -- Looking for netinet/in.h - not found
+  -- Looking for netinet/tcp.h
+  -- Looking for netinet/tcp.h - not found
+  -- Looking for arpa/inet.h
+  -- Looking for arpa/inet.h - not found
+  -- Looking for limits.h
+  -- Looking for limits.h - found
+  -- Looking for pthread.h
+  -- Looking for pthread.h - not found
+  -- Looking for signal.h
+  -- Looking for signal.h - found
+  -- Looking for getopt.h
+  -- Looking for getopt.h - not found
+  -- Looking for stdint.h
+  -- Looking for stdint.h - found
+  -- Looking for stddef.h
+  -- Looking for stddef.h - found
+  -- Check size of long long
+  -- Check size of long long - done
+  -- Performing Test _have_inline
+  -- Performing Test _have_inline - Success
+  -- Performing Test _have_vla
+  -- Performing Test _have_vla - Failed
+  -- Targeting Windows Version 0x0A00
+  -- Looking for windows.h
+  -- Looking for windows.h - found
+  -- Looking for io.h
+  -- Looking for io.h - found
+  -- Looking for include files windows.h, dsound.h
+  -- Looking for include files windows.h, dsound.h - found
+  -- Looking for include files windows.h, mmsystem.h
+  -- Looking for include files windows.h, mmsystem.h - found
+  -- Looking for include files mmdeviceapi.h, audioclient.h
+  -- Looking for include files mmdeviceapi.h, audioclient.h - found
+  -- Looking for objbase.h
+  -- Looking for objbase.h - found
+  The 'gcem' submodule directory seems to be empty or incomplete. Attempting to download gcem from Github.
+  -- [download 2% complete]
+  -- [download 8% complete]
+  -- [download 25% complete]
+  -- [download 35% complete]
+  -- [download 45% complete]
+  -- [download 56% complete]
+  -- [download 60% complete]
+  -- [download 70% complete]
+  -- [download 80% complete]
+  -- [download 90% complete]
+  -- [download 100% complete]
+  -- gcem source downloaded and extracted to C:/Users/camilo/code/fluidsynth/gcem-extracted
+  -- Found GCEM: C:/Users/camilo/code/fluidsynth/gcem-extracted/gcem-012ae73c6d0a2cb09ffe86475f5c6fba3926e200/include
+  -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+  -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+  -- Looking for pthread_create in pthreads
+  -- Looking for pthread_create in pthreads - not found
+  -- Looking for pthread_create in pthread
+  -- Looking for pthread_create in pthread - not found
+  -- Found Threads: TRUE
+  CMake Error at C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake:290 (message):
+    Could NOT find GLib2 (missing: GLib2_glib-2_LIBRARY GLib2_gthread-2_LIBRARY
+    GLib2_INCLUDE_DIRS) (Required is at least version "2.6.5")
+  Call Stack (most recent call first):
+    C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake:654 (_FPHSA_FAILURE_MESSAGE)
+    cmake_admin/FindGLib2.cmake:99 (find_package_handle_standard_args)
+    CMakeLists.txt:568 (find_package)
+  
+  
+  -- Configuring incomplete, errors occurred!
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(254,5): error MSB8066: Custom build for 'C:\Users\camilo\code\fluidsynth\fluidsynth\src\CMakeLists.txt' exited with code 1.

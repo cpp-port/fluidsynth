@@ -176,7 +176,7 @@
       </LinkErrorReporting>
       <RandomizedBaseAddress>
       </RandomizedBaseAddress>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <Version>3.5</Version>
     </Link>
     <ProjectReference>
@@ -230,7 +230,6 @@
     <Link>
       <AdditionalDependencies>dsound.lib;ksuser.lib;winmm.lib;ole32.lib;ksuser.lib;winmm.lib;ole32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention>
       </DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -241,7 +240,7 @@
       </LinkErrorReporting>
       <RandomizedBaseAddress>
       </RandomizedBaseAddress>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <Version>3.5</Version>
     </Link>
     <ProjectReference>
@@ -360,7 +359,6 @@
     <Link>
       <AdditionalDependencies>dsound.lib;ksuser.lib;winmm.lib;ole32.lib;ksuser.lib;winmm.lib;ole32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention>
       </DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -439,7 +437,7 @@
       </LinkErrorReporting>
       <RandomizedBaseAddress>
       </RandomizedBaseAddress>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <Version>3.5</Version>
     </Link>
     <ProjectReference>
@@ -496,7 +494,6 @@
     <Link>
       <AdditionalDependencies>dsound.lib;ksuser.lib;winmm.lib;ole32.lib;ksuser.lib;winmm.lib;ole32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention>
       </DataExecutionPrevention>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -507,7 +504,7 @@
       </LinkErrorReporting>
       <RandomizedBaseAddress>
       </RandomizedBaseAddress>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <Version>3.5</Version>
     </Link>
     <ProjectReference>

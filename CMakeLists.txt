@@ -3,7 +3,7 @@ project(port_fluidsynth C CXX)
 
 option(PORT_FLUIDSYNTH_BUILD_BY_DEFAULT "Build libfluidsynth as part of this wrapper's default target" ON)
 option(PORT_FLUIDSYNTH_ENABLE_NETWORK "Enable FluidSynth network support" ON)
-option(PORT_FLUIDSYNTH_ENABLE_OPENSL_ES "Enable FluidSynth OpenSL ES driver on Android" ${ANDROID})
+option(PORT_FLUIDSYNTH_ENABLE_OPENSL_ES "Enable FluidSynth OpenSL ES driver on Android" ${__ANDROID__})
 option(PORT_FLUIDSYNTH_SHARED "Build libfluidsynth as a shared library" ON)
 
 function(port_fluidsynth_cache_default name type value description)

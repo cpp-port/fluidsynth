@@ -52,6 +52,13 @@ port_fluidsynth_cache_default(enable-wasapi BOOL OFF "Compile WASAPI support")
 port_fluidsynth_cache_default(enable-waveout BOOL OFF "Compile WaveOut support")
 port_fluidsynth_cache_default(enable-winmidi BOOL OFF "Compile Windows MIDI support")
 
+if(CMAKE_SYSTEM_NAME STREQUAL "Haiku")
+    # Apply the same Haiku executable flags to targets and try_compile probes.
+    set(CMAKE_USER_MAKE_RULES_OVERRIDE_CXX "${CMAKE_CURRENT_LIST_DIR}/haiku-cxx.cmake")
+    include("${CMAKE_USER_MAKE_RULES_OVERRIDE_CXX}")
+    unset(HAVE_CXX_THREAD_PRIMITIVES CACHE)
+endif()
+
 add_subdirectory(fluidsynth EXCLUDE_FROM_ALL)
 
 if(port_fluidsynth_restore_BUILD_SHARED_LIBS)

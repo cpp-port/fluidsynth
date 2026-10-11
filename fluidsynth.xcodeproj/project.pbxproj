@@ -1,0 +1,1094 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A8D4772307B4E18004F9331 /* fluid_synth_write_int.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D476C307B4E18004F9331 /* fluid_synth_write_int.h */; };
+		9A8D4773307B4E18004F9331 /* fluid_tuning.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D476E307B4E18004F9331 /* fluid_tuning.h */; };
+		9A8D4774307B4E18004F9331 /* fluid_voice.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D4770307B4E18004F9331 /* fluid_voice.h */; };
+		9A8D4775307B4E18004F9331 /* fluid_mod.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D4767307B4E18004F9331 /* fluid_mod.h */; };
+		9A8D4776307B4E18004F9331 /* fluid_gen.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D4765307B4E18004F9331 /* fluid_gen.h */; };
+		9A8D4777307B4E18004F9331 /* fluid_chan.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D4761307B4E18004F9331 /* fluid_chan.h */; };
+		9A8D4778307B4E18004F9331 /* fluid_synth.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D4769307B4E18004F9331 /* fluid_synth.h */; };
+		9A8D4779307B4E18004F9331 /* fluid_event.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D4763307B4E18004F9331 /* fluid_event.h */; };
+		9A8D477A307B4E18004F9331 /* fluid_event.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D4764307B4E18004F9331 /* fluid_event.c */; };
+		9A8D477B307B4E18004F9331 /* fluid_synth.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D476A307B4E18004F9331 /* fluid_synth.c */; };
+		9A8D477C307B4E18004F9331 /* fluid_synth_write_int.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D476D307B4E18004F9331 /* fluid_synth_write_int.cpp */; };
+		9A8D477D307B4E18004F9331 /* fluid_synth_monopoly.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D476B307B4E18004F9331 /* fluid_synth_monopoly.c */; };
+		9A8D477E307B4E18004F9331 /* fluid_mod.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D4768307B4E18004F9331 /* fluid_mod.c */; };
+		9A8D477F307B4E18004F9331 /* fluid_chan.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D4762307B4E18004F9331 /* fluid_chan.c */; };
+		9A8D4780307B4E18004F9331 /* fluid_voice.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D4771307B4E18004F9331 /* fluid_voice.c */; };
+		9A8D4781307B4E18004F9331 /* fluid_tuning.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D476F307B4E18004F9331 /* fluid_tuning.c */; };
+		9A8D4782307B4E18004F9331 /* fluid_gen.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D4766307B4E18004F9331 /* fluid_gen.c */; };
+		9A8D480B307B53C9004F9331 /* fluid_phase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47CF307B53C9004F9331 /* fluid_phase.h */; };
+		9A8D480C307B53C9004F9331 /* fluid_stub_functions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D4802307B53C9004F9331 /* fluid_stub_functions.h */; };
+		9A8D480D307B53C9004F9331 /* fluid_rvoice_dsp_sinc.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47E0307B53C9004F9331 /* fluid_rvoice_dsp_sinc.hpp */; };
+		9A8D480E307B53C9004F9331 /* fluid_rev_fdn.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47D4307B53C9004F9331 /* fluid_rev_fdn.h */; };
+		9A8D480F307B53C9004F9331 /* fluid_dls.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47E9307B53C9004F9331 /* fluid_dls.h */; };
+		9A8D4810307B53C9004F9331 /* fluid_seq_queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47BC307B53C9004F9331 /* fluid_seq_queue.h */; };
+		9A8D4811307B53C9004F9331 /* fluid_midi_router.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47B9307B53C9004F9331 /* fluid_midi_router.h */; };
+		9A8D4812307B53C9004F9331 /* fluid_rev.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47D0307B53C9004F9331 /* fluid_rev.h */; };
+		9A8D4813307B53C9004F9331 /* fluid_iir_filter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47C6307B53C9004F9331 /* fluid_iir_filter.h */; };
+		9A8D4814307B53C9004F9331 /* fluid_rvoice.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47DD307B53C9004F9331 /* fluid_rvoice.h */; };
+		9A8D4815307B53C9004F9331 /* fluid_rev_filters.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47D6307B53C9004F9331 /* fluid_rev_filters.h */; };
+		9A8D4816307B53C9004F9331 /* fluid_ladspa.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D4789307B53C9004F9331 /* fluid_ladspa.h */; };
+		9A8D4817307B53C9004F9331 /* fluid_mdriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D479C307B53C9004F9331 /* fluid_mdriver.h */; };
+		9A8D4818307B53C9004F9331 /* fluid_limiter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47CB307B53C9004F9331 /* fluid_limiter.h */; };
+		9A8D4819307B53C9004F9331 /* fluid_list.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47F9307B53C9004F9331 /* fluid_list.h */; };
+		9A8D481A307B53C9004F9331 /* fluid_rev_freeverb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47D7307B53C9004F9331 /* fluid_rev_freeverb.h */; };
+		9A8D481B307B53C9004F9331 /* fluid_sys_cpp11.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D4805307B53C9004F9331 /* fluid_sys_cpp11.h */; };
+		9A8D481C307B53C9004F9331 /* fluid_cmd.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D4786307B53C9004F9331 /* fluid_cmd.h */; };
+		9A8D481D307B53C9004F9331 /* fluid_conv.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47F2307B53C9004F9331 /* fluid_conv.h */; };
+		9A8D481E307B53C9004F9331 /* fluid_conv_tables.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47F4307B53C9004F9331 /* fluid_conv_tables.h */; };
+		9A8D481F307B53C9004F9331 /* fluid_ringbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47FE307B53C9004F9331 /* fluid_ringbuffer.h */; };
+		9A8D4820307B53C9004F9331 /* fluid_rev_dattorro.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47D2307B53C9004F9331 /* fluid_rev_dattorro.h */; };
+		9A8D4821307B53C9004F9331 /* fluid_rev_lexverb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47D9307B53C9004F9331 /* fluid_rev_lexverb.h */; };
+		9A8D4822307B53C9004F9331 /* fluid_seqbind_notes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47BF307B53C9004F9331 /* fluid_seqbind_notes.h */; };
+		9A8D4823307B53C9004F9331 /* fluid_sffile.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47ED307B53C9004F9331 /* fluid_sffile.h */; };
+		9A8D4824307B53C9004F9331 /* fluid_rvoice_dsp_tables.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47E1307B53C9004F9331 /* fluid_rvoice_dsp_tables.h */; };
+		9A8D4825307B53C9004F9331 /* fluid_sys_embedded.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D4807307B53C9004F9331 /* fluid_sys_embedded.h */; };
+		9A8D4826307B53C9004F9331 /* fluid_sys.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D4803307B53C9004F9331 /* fluid_sys.h */; };
+		9A8D4827307B53C9004F9331 /* fluid_rvoice_event.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47E2307B53C9004F9331 /* fluid_rvoice_event.h */; };
+		9A8D4828307B53C9004F9331 /* fluid_rvoice_mixer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47E4307B53C9004F9331 /* fluid_rvoice_mixer.h */; };
+		9A8D4829307B53C9004F9331 /* fluid_limiter_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47CD307B53C9004F9331 /* fluid_limiter_impl.h */; };
+		9A8D482A307B53C9004F9331 /* fluid_samplecache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47EB307B53C9004F9331 /* fluid_samplecache.h */; };
+		9A8D482B307B53C9004F9331 /* fluid_file.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47F5307B53C9004F9331 /* fluid_file.h */; };
+		9A8D482C307B53C9004F9331 /* fluidsynth_priv.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D4809307B53C9004F9331 /* fluidsynth_priv.h */; };
+		9A8D482D307B53C9004F9331 /* fluid_settings.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D4800307B53C9004F9331 /* fluid_settings.h */; };
+		9A8D482E307B53C9004F9331 /* ConstExprArr.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47AD307B53C9004F9331 /* ConstExprArr.hpp */; };
+		9A8D482F307B53C9004F9331 /* fluid_defsfont.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47E7307B53C9004F9331 /* fluid_defsfont.h */; };
+		9A8D4830307B53C9004F9331 /* fluid_sfont.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47EF307B53C9004F9331 /* fluid_sfont.h */; };
+		9A8D4831307B53C9004F9331 /* fluid_adriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D478E307B53C9004F9331 /* fluid_adriver.h */; };
+		9A8D4832307B53C9004F9331 /* fluid_hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47F7307B53C9004F9331 /* fluid_hash.h */; };
+		9A8D4833307B53C9004F9331 /* fluid_chorus.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47C4307B53C9004F9331 /* fluid_chorus.h */; };
+		9A8D4834307B53C9004F9331 /* fluid_rtkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D478B307B53C9004F9331 /* fluid_rtkit.h */; };
+		9A8D4835307B53C9004F9331 /* fluid_midi.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47B7307B53C9004F9331 /* fluid_midi.h */; };
+		9A8D4836307B53C9004F9331 /* fluid_module.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47FC307B53C9004F9331 /* fluid_module.h */; };
+		9A8D4837307B53C9004F9331 /* fluid_rev_signalsmith.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47DB307B53C9004F9331 /* fluid_rev_signalsmith.h */; };
+		9A8D4838307B53C9004F9331 /* fluid_locked_atomics.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47FB307B53C9004F9331 /* fluid_locked_atomics.h */; };
+		9A8D4839307B53C9004F9331 /* fluid_audio_convert.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D4791307B53C9004F9331 /* fluid_audio_convert.h */; };
+		9A8D483A307B53C9004F9331 /* fluid_lfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47C9307B53C9004F9331 /* fluid_lfo.h */; };
+		9A8D483B307B53C9004F9331 /* fluid_coreaudio_avaudiosession.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D4795307B53C9004F9331 /* fluid_coreaudio_avaudiosession.h */; };
+		9A8D483C307B53C9004F9331 /* fluid_adsr_env.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8D47C2307B53C9004F9331 /* fluid_adsr_env.h */; };
+		9A8D483D307B53C9004F9331 /* fluid_oboe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D479F307B53C9004F9331 /* fluid_oboe.cpp */; };
+		9A8D483E307B53C9004F9331 /* fluid_midi.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47B8307B53C9004F9331 /* fluid_midi.c */; };
+		9A8D483F307B53C9004F9331 /* fluid_rvoice_event.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47E3307B53C9004F9331 /* fluid_rvoice_event.c */; };
+		9A8D4840307B53C9004F9331 /* fluid_sys.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D4804307B53C9004F9331 /* fluid_sys.c */; };
+		9A8D4841307B53C9004F9331 /* fluid_limiter_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47CE307B53C9004F9331 /* fluid_limiter_impl.cpp */; };
+		9A8D4842307B53C9004F9331 /* fluid_waveout.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47A8307B53C9004F9331 /* fluid_waveout.c */; };
+		9A8D4843307B53C9004F9331 /* fluid_mdriver.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D479D307B53C9004F9331 /* fluid_mdriver.c */; };
+		9A8D4844307B53C9004F9331 /* fluid_rvoice_mixer.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47E5307B53C9004F9331 /* fluid_rvoice_mixer.c */; };
+		9A8D4845307B53C9004F9331 /* fluid_wasapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47A7307B53C9004F9331 /* fluid_wasapi.c */; };
+		9A8D4846307B53C9004F9331 /* fluid_convex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47B0307B53C9004F9331 /* fluid_convex.cpp */; };
+		9A8D4847307B53C9004F9331 /* fluid_aufile.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D4793307B53C9004F9331 /* fluid_aufile.c */; };
+		9A8D4848307B53C9004F9331 /* fluid_wasapi_device_enumerate.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47AB307B53C9004F9331 /* fluid_wasapi_device_enumerate.c */; };
+		9A8D4849307B53C9004F9331 /* fluid_pipewire.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47A2307B53C9004F9331 /* fluid_pipewire.c */; };
+		9A8D484A307B53C9004F9331 /* fluid_defsfont.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47E8307B53C9004F9331 /* fluid_defsfont.c */; };
+		9A8D484B307B53C9004F9331 /* fluid_file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47F6307B53C9004F9331 /* fluid_file.cpp */; };
+		9A8D484C307B53C9004F9331 /* fluid_ringbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47FF307B53C9004F9331 /* fluid_ringbuffer.c */; };
+		9A8D484D307B53C9004F9331 /* fluid_coremidi.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D4797307B53C9004F9331 /* fluid_coremidi.c */; };
+		9A8D484E307B53C9004F9331 /* fluid_sys_embedded.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D4808307B53C9004F9331 /* fluid_sys_embedded.c */; };
+		9A8D484F307B53C9004F9331 /* fluid_interp_coeff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47B2307B53C9004F9331 /* fluid_interp_coeff.cpp */; };
+		9A8D4850307B53C9004F9331 /* fluid_filerenderer.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D4788307B53C9004F9331 /* fluid_filerenderer.c */; };
+		9A8D4851307B53C9004F9331 /* fluid_coreaudio.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D4794307B53C9004F9331 /* fluid_coreaudio.c */; };
+		9A8D4852307B53C9004F9331 /* fluid_portaudio.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47A3307B53C9004F9331 /* fluid_portaudio.c */; };
+		9A8D4853307B53C9004F9331 /* fluid_kai.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D479B307B53C9004F9331 /* fluid_kai.c */; };
+		9A8D4854307B53C9004F9331 /* fluid_hash.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47F8307B53C9004F9331 /* fluid_hash.c */; };
+		9A8D4855307B53C9004F9331 /* fluid_jack.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D479A307B53C9004F9331 /* fluid_jack.c */; };
+		9A8D4856307B53C9004F9331 /* fluid_sys_cpp11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D4806307B53C9004F9331 /* fluid_sys_cpp11.cpp */; };
+		9A8D4857307B53C9004F9331 /* fluid_list.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47FA307B53C9004F9331 /* fluid_list.c */; };
+		9A8D4858307B53C9004F9331 /* fluidsynth.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47AC307B53C9004F9331 /* fluidsynth.c */; };
+		9A8D485A307B53C9004F9331 /* fluid_conv.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47F3307B53C9004F9331 /* fluid_conv.c */; };
+		9A8D485B307B53C9004F9331 /* fluid_dart.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D4798307B53C9004F9331 /* fluid_dart.c */; };
+		9A8D485C307B53C9004F9331 /* fluid_interp_coeff_sinc7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47B4307B53C9004F9331 /* fluid_interp_coeff_sinc7.cpp */; };
+		9A8D485D307B53C9004F9331 /* fluid_cb2amp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47AE307B53C9004F9331 /* fluid_cb2amp.cpp */; };
+		9A8D485E307B53C9004F9331 /* fluid_lfo.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47CA307B53C9004F9331 /* fluid_lfo.c */; };
+		9A8D485F307B53C9004F9331 /* fluid_adriver.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D478F307B53C9004F9331 /* fluid_adriver.c */; };
+		9A8D4860307B53C9004F9331 /* fluid_midi_router.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47BA307B53C9004F9331 /* fluid_midi_router.c */; };
+		9A8D4861307B53C9004F9331 /* fluid_seqbind_notes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47C0307B53C9004F9331 /* fluid_seqbind_notes.cpp */; };
+		9A8D4862307B53C9004F9331 /* fluid_ladspa.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D478A307B53C9004F9331 /* fluid_ladspa.c */; };
+		9A8D4863307B53C9004F9331 /* fluid_samplecache.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47EC307B53C9004F9331 /* fluid_samplecache.c */; };
+		9A8D4864307B53C9004F9331 /* fluid_concave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47AF307B53C9004F9331 /* fluid_concave.cpp */; };
+		9A8D4865307B53C9004F9331 /* fluid_rtkit.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D478C307B53C9004F9331 /* fluid_rtkit.c */; };
+		9A8D4866307B53C9004F9331 /* fluid_rev_freeverb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47D8307B53C9004F9331 /* fluid_rev_freeverb.cpp */; };
+		9A8D4867307B53C9004F9331 /* fluid_ct2hz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47B1307B53C9004F9331 /* fluid_ct2hz.cpp */; };
+		9A8D4868307B53C9004F9331 /* fluid_module.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47FD307B53C9004F9331 /* fluid_module.cpp */; };
+		9A8D4869307B53C9004F9331 /* fluid_settings.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D4801307B53C9004F9331 /* fluid_settings.c */; };
+		9A8D486A307B53C9004F9331 /* fluid_adsr_env.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47C3307B53C9004F9331 /* fluid_adsr_env.c */; };
+		9A8D486B307B53C9004F9331 /* fluid_seq.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47BB307B53C9004F9331 /* fluid_seq.c */; };
+		9A8D486C307B53C9004F9331 /* fluid_sfont.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47F0307B53C9004F9331 /* fluid_sfont.c */; };
+		9A8D486D307B53C9004F9331 /* fluid_rvoice.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47DE307B53C9004F9331 /* fluid_rvoice.c */; };
+		9A8D486E307B53C9004F9331 /* fluid_opensles.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47A0307B53C9004F9331 /* fluid_opensles.c */; };
+		9A8D486F307B53C9004F9331 /* fluid_sndmgr.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47A6307B53C9004F9331 /* fluid_sndmgr.c */; };
+		9A8D4870307B53C9004F9331 /* fluid_sdl3.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47A5307B53C9004F9331 /* fluid_sdl3.c */; };
+		9A8D4871307B53C9004F9331 /* fluid_oss.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47A1307B53C9004F9331 /* fluid_oss.c */; };
+		9A8D4872307B53C9004F9331 /* fluid_pulse.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47A4307B53C9004F9331 /* fluid_pulse.c */; };
+		9A8D4873307B53C9004F9331 /* fluid_iir_filter.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47C7307B53C9004F9331 /* fluid_iir_filter.c */; };
+		9A8D4874307B53C9004F9331 /* fluid_midishare.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D479E307B53C9004F9331 /* fluid_midishare.c */; };
+		9A8D4875307B53C9004F9331 /* fluid_interp_coeff_linear.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47B3307B53C9004F9331 /* fluid_interp_coeff_linear.cpp */; };
+		9A8D4876307B53C9004F9331 /* fluid_rev.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47D1307B53C9004F9331 /* fluid_rev.cpp */; };
+		9A8D4877307B53C9004F9331 /* fluid_dls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47EA307B53C9004F9331 /* fluid_dls.cpp */; };
+		9A8D4878307B53C9004F9331 /* fluid_rvoice_dsp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47DF307B53C9004F9331 /* fluid_rvoice_dsp.cpp */; };
+		9A8D4879307B53C9004F9331 /* fluid_alsa.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D4790307B53C9004F9331 /* fluid_alsa.c */; };
+		9A8D487A307B53C9004F9331 /* fluid_sffile.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47EE307B53C9004F9331 /* fluid_sffile.c */; };
+		9A8D487B307B53C9004F9331 /* fluid_rev_lexverb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47DA307B53C9004F9331 /* fluid_rev_lexverb.cpp */; };
+		9A8D487C307B53C9004F9331 /* fluid_audio_convert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D4792307B53C9004F9331 /* fluid_audio_convert.cpp */; };
+		9A8D487D307B53C9004F9331 /* fluid_rev_signalsmith.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47DC307B53C9004F9331 /* fluid_rev_signalsmith.cpp */; };
+		9A8D487E307B53C9004F9331 /* fluid_chorus.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47C5307B53C9004F9331 /* fluid_chorus.c */; };
+		9A8D487F307B53C9004F9331 /* fluid_winmidi.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47A9307B53C9004F9331 /* fluid_winmidi.c */; };
+		9A8D4880307B53C9004F9331 /* fluid_iir_filter_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47C8307B53C9004F9331 /* fluid_iir_filter_impl.cpp */; };
+		9A8D4881307B53C9004F9331 /* fluid_limiter.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47CC307B53C9004F9331 /* fluid_limiter.c */; };
+		9A8D4882307B53C9004F9331 /* fluid_rev_fdn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47D5307B53C9004F9331 /* fluid_rev_fdn.cpp */; };
+		9A8D4883307B53C9004F9331 /* fluid_seq_queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47BD307B53C9004F9331 /* fluid_seq_queue.cpp */; };
+		9A8D4884307B53C9004F9331 /* fluid_cmd.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D4787307B53C9004F9331 /* fluid_cmd.c */; };
+		9A8D4885307B53C9004F9331 /* fluid_dsound.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D4799307B53C9004F9331 /* fluid_dsound.c */; };
+		9A8D4886307B53C9004F9331 /* fluid_pan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47B5307B53C9004F9331 /* fluid_pan.cpp */; };
+		9A8D4887307B53C9004F9331 /* fluid_seqbind.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47BE307B53C9004F9331 /* fluid_seqbind.c */; };
+		9A8D4888307B53C9004F9331 /* fluid_rev_dattorro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47D3307B53C9004F9331 /* fluid_rev_dattorro.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A8D424F307B4C1D004F9331 /* libfluidsynth.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libfluidsynth.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8D4761307B4E18004F9331 /* fluid_chan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fluid_chan.h; path = fluidsynth/src/synth/fluid_chan.h; sourceTree = SOURCE_ROOT; };
+		9A8D4762307B4E18004F9331 /* fluid_chan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fluid_chan.c; path = fluidsynth/src/synth/fluid_chan.c; sourceTree = SOURCE_ROOT; };
+		9A8D4763307B4E18004F9331 /* fluid_event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fluid_event.h; path = fluidsynth/src/synth/fluid_event.h; sourceTree = SOURCE_ROOT; };
+		9A8D4764307B4E18004F9331 /* fluid_event.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fluid_event.c; path = fluidsynth/src/synth/fluid_event.c; sourceTree = SOURCE_ROOT; };
+		9A8D4765307B4E18004F9331 /* fluid_gen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fluid_gen.h; path = fluidsynth/src/synth/fluid_gen.h; sourceTree = SOURCE_ROOT; };
+		9A8D4766307B4E18004F9331 /* fluid_gen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fluid_gen.c; path = fluidsynth/src/synth/fluid_gen.c; sourceTree = SOURCE_ROOT; };
+		9A8D4767307B4E18004F9331 /* fluid_mod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fluid_mod.h; path = fluidsynth/src/synth/fluid_mod.h; sourceTree = SOURCE_ROOT; };
+		9A8D4768307B4E18004F9331 /* fluid_mod.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fluid_mod.c; path = fluidsynth/src/synth/fluid_mod.c; sourceTree = SOURCE_ROOT; };
+		9A8D4769307B4E18004F9331 /* fluid_synth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fluid_synth.h; path = fluidsynth/src/synth/fluid_synth.h; sourceTree = SOURCE_ROOT; };
+		9A8D476A307B4E18004F9331 /* fluid_synth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fluid_synth.c; path = fluidsynth/src/synth/fluid_synth.c; sourceTree = SOURCE_ROOT; };
+		9A8D476B307B4E18004F9331 /* fluid_synth_monopoly.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fluid_synth_monopoly.c; path = fluidsynth/src/synth/fluid_synth_monopoly.c; sourceTree = SOURCE_ROOT; };
+		9A8D476C307B4E18004F9331 /* fluid_synth_write_int.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fluid_synth_write_int.h; path = fluidsynth/src/synth/fluid_synth_write_int.h; sourceTree = SOURCE_ROOT; };
+		9A8D476D307B4E18004F9331 /* fluid_synth_write_int.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = fluid_synth_write_int.cpp; path = fluidsynth/src/synth/fluid_synth_write_int.cpp; sourceTree = SOURCE_ROOT; };
+		9A8D476E307B4E18004F9331 /* fluid_tuning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fluid_tuning.h; path = fluidsynth/src/synth/fluid_tuning.h; sourceTree = SOURCE_ROOT; };
+		9A8D476F307B4E18004F9331 /* fluid_tuning.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fluid_tuning.c; path = fluidsynth/src/synth/fluid_tuning.c; sourceTree = SOURCE_ROOT; };
+		9A8D4770307B4E18004F9331 /* fluid_voice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fluid_voice.h; path = fluidsynth/src/synth/fluid_voice.h; sourceTree = SOURCE_ROOT; };
+		9A8D4771307B4E18004F9331 /* fluid_voice.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fluid_voice.c; path = fluidsynth/src/synth/fluid_voice.c; sourceTree = SOURCE_ROOT; };
+		9A8D4786307B53C9004F9331 /* fluid_cmd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_cmd.h; sourceTree = "<group>"; };
+		9A8D4787307B53C9004F9331 /* fluid_cmd.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_cmd.c; sourceTree = "<group>"; };
+		9A8D4788307B53C9004F9331 /* fluid_filerenderer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_filerenderer.c; sourceTree = "<group>"; };
+		9A8D4789307B53C9004F9331 /* fluid_ladspa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_ladspa.h; sourceTree = "<group>"; };
+		9A8D478A307B53C9004F9331 /* fluid_ladspa.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_ladspa.c; sourceTree = "<group>"; };
+		9A8D478B307B53C9004F9331 /* fluid_rtkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_rtkit.h; sourceTree = "<group>"; };
+		9A8D478C307B53C9004F9331 /* fluid_rtkit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_rtkit.c; sourceTree = "<group>"; };
+		9A8D478E307B53C9004F9331 /* fluid_adriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_adriver.h; sourceTree = "<group>"; };
+		9A8D478F307B53C9004F9331 /* fluid_adriver.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_adriver.c; sourceTree = "<group>"; };
+		9A8D4790307B53C9004F9331 /* fluid_alsa.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_alsa.c; sourceTree = "<group>"; };
+		9A8D4791307B53C9004F9331 /* fluid_audio_convert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_audio_convert.h; sourceTree = "<group>"; };
+		9A8D4792307B53C9004F9331 /* fluid_audio_convert.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fluid_audio_convert.cpp; sourceTree = "<group>"; };
+		9A8D4793307B53C9004F9331 /* fluid_aufile.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_aufile.c; sourceTree = "<group>"; };
+		9A8D4794307B53C9004F9331 /* fluid_coreaudio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_coreaudio.c; sourceTree = "<group>"; };
+		9A8D4795307B53C9004F9331 /* fluid_coreaudio_avaudiosession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_coreaudio_avaudiosession.h; sourceTree = "<group>"; };
+		9A8D4796307B53C9004F9331 /* fluid_coreaudio_avaudiosession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fluid_coreaudio_avaudiosession.m; sourceTree = "<group>"; };
+		9A8D4797307B53C9004F9331 /* fluid_coremidi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_coremidi.c; sourceTree = "<group>"; };
+		9A8D4798307B53C9004F9331 /* fluid_dart.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_dart.c; sourceTree = "<group>"; };
+		9A8D4799307B53C9004F9331 /* fluid_dsound.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_dsound.c; sourceTree = "<group>"; };
+		9A8D479A307B53C9004F9331 /* fluid_jack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_jack.c; sourceTree = "<group>"; };
+		9A8D479B307B53C9004F9331 /* fluid_kai.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_kai.c; sourceTree = "<group>"; };
+		9A8D479C307B53C9004F9331 /* fluid_mdriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_mdriver.h; sourceTree = "<group>"; };
+		9A8D479D307B53C9004F9331 /* fluid_mdriver.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_mdriver.c; sourceTree = "<group>"; };
+		9A8D479E307B53C9004F9331 /* fluid_midishare.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_midishare.c; sourceTree = "<group>"; };
+		9A8D479F307B53C9004F9331 /* fluid_oboe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fluid_oboe.cpp; sourceTree = "<group>"; };
+		9A8D47A0307B53C9004F9331 /* fluid_opensles.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_opensles.c; sourceTree = "<group>"; };
+		9A8D47A1307B53C9004F9331 /* fluid_oss.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_oss.c; sourceTree = "<group>"; };
+		9A8D47A2307B53C9004F9331 /* fluid_pipewire.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_pipewire.c; sourceTree = "<group>"; };
+		9A8D47A3307B53C9004F9331 /* fluid_portaudio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_portaudio.c; sourceTree = "<group>"; };
+		9A8D47A4307B53C9004F9331 /* fluid_pulse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_pulse.c; sourceTree = "<group>"; };
+		9A8D47A5307B53C9004F9331 /* fluid_sdl3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_sdl3.c; sourceTree = "<group>"; };
+		9A8D47A6307B53C9004F9331 /* fluid_sndmgr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_sndmgr.c; sourceTree = "<group>"; };
+		9A8D47A7307B53C9004F9331 /* fluid_wasapi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_wasapi.c; sourceTree = "<group>"; };
+		9A8D47A8307B53C9004F9331 /* fluid_waveout.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_waveout.c; sourceTree = "<group>"; };
+		9A8D47A9307B53C9004F9331 /* fluid_winmidi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_winmidi.c; sourceTree = "<group>"; };
+		9A8D47AB307B53C9004F9331 /* fluid_wasapi_device_enumerate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_wasapi_device_enumerate.c; sourceTree = "<group>"; };
+		9A8D47AC307B53C9004F9331 /* fluidsynth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluidsynth.c; sourceTree = "<group>"; };
+		9A8D47AD307B53C9004F9331 /* ConstExprArr.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ConstExprArr.hpp; sourceTree = "<group>"; };
+		9A8D47AE307B53C9004F9331 /* fluid_cb2amp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fluid_cb2amp.cpp; sourceTree = "<group>"; };
+		9A8D47AF307B53C9004F9331 /* fluid_concave.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fluid_concave.cpp; sourceTree = "<group>"; };
+		9A8D47B0307B53C9004F9331 /* fluid_convex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fluid_convex.cpp; sourceTree = "<group>"; };
+		9A8D47B1307B53C9004F9331 /* fluid_ct2hz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fluid_ct2hz.cpp; sourceTree = "<group>"; };
+		9A8D47B2307B53C9004F9331 /* fluid_interp_coeff.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fluid_interp_coeff.cpp; sourceTree = "<group>"; };
+		9A8D47B3307B53C9004F9331 /* fluid_interp_coeff_linear.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fluid_interp_coeff_linear.cpp; sourceTree = "<group>"; };
+		9A8D47B4307B53C9004F9331 /* fluid_interp_coeff_sinc7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fluid_interp_coeff_sinc7.cpp; sourceTree = "<group>"; };
+		9A8D47B5307B53C9004F9331 /* fluid_pan.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fluid_pan.cpp; sourceTree = "<group>"; };
+		9A8D47B7307B53C9004F9331 /* fluid_midi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_midi.h; sourceTree = "<group>"; };
+		9A8D47B8307B53C9004F9331 /* fluid_midi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_midi.c; sourceTree = "<group>"; };
+		9A8D47B9307B53C9004F9331 /* fluid_midi_router.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_midi_router.h; sourceTree = "<group>"; };
+		9A8D47BA307B53C9004F9331 /* fluid_midi_router.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_midi_router.c; sourceTree = "<group>"; };
+		9A8D47BB307B53C9004F9331 /* fluid_seq.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_seq.c; sourceTree = "<group>"; };
+		9A8D47BC307B53C9004F9331 /* fluid_seq_queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_seq_queue.h; sourceTree = "<group>"; };
+		9A8D47BD307B53C9004F9331 /* fluid_seq_queue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fluid_seq_queue.cpp; sourceTree = "<group>"; };
+		9A8D47BE307B53C9004F9331 /* fluid_seqbind.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_seqbind.c; sourceTree = "<group>"; };
+		9A8D47BF307B53C9004F9331 /* fluid_seqbind_notes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_seqbind_notes.h; sourceTree = "<group>"; };
+		9A8D47C0307B53C9004F9331 /* fluid_seqbind_notes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fluid_seqbind_notes.cpp; sourceTree = "<group>"; };
+		9A8D47C2307B53C9004F9331 /* fluid_adsr_env.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_adsr_env.h; sourceTree = "<group>"; };
+		9A8D47C3307B53C9004F9331 /* fluid_adsr_env.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_adsr_env.c; sourceTree = "<group>"; };
+		9A8D47C4307B53C9004F9331 /* fluid_chorus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_chorus.h; sourceTree = "<group>"; };
+		9A8D47C5307B53C9004F9331 /* fluid_chorus.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_chorus.c; sourceTree = "<group>"; };
+		9A8D47C6307B53C9004F9331 /* fluid_iir_filter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_iir_filter.h; sourceTree = "<group>"; };
+		9A8D47C7307B53C9004F9331 /* fluid_iir_filter.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_iir_filter.c; sourceTree = "<group>"; };
+		9A8D47C8307B53C9004F9331 /* fluid_iir_filter_impl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fluid_iir_filter_impl.cpp; sourceTree = "<group>"; };
+		9A8D47C9307B53C9004F9331 /* fluid_lfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_lfo.h; sourceTree = "<group>"; };
+		9A8D47CA307B53C9004F9331 /* fluid_lfo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_lfo.c; sourceTree = "<group>"; };
+		9A8D47CB307B53C9004F9331 /* fluid_limiter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_limiter.h; sourceTree = "<group>"; };
+		9A8D47CC307B53C9004F9331 /* fluid_limiter.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_limiter.c; sourceTree = "<group>"; };
+		9A8D47CD307B53C9004F9331 /* fluid_limiter_impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_limiter_impl.h; sourceTree = "<group>"; };
+		9A8D47CE307B53C9004F9331 /* fluid_limiter_impl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fluid_limiter_impl.cpp; sourceTree = "<group>"; };
+		9A8D47CF307B53C9004F9331 /* fluid_phase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_phase.h; sourceTree = "<group>"; };
+		9A8D47D0307B53C9004F9331 /* fluid_rev.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_rev.h; sourceTree = "<group>"; };
+		9A8D47D1307B53C9004F9331 /* fluid_rev.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fluid_rev.cpp; sourceTree = "<group>"; };
+		9A8D47D2307B53C9004F9331 /* fluid_rev_dattorro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_rev_dattorro.h; sourceTree = "<group>"; };
+		9A8D47D3307B53C9004F9331 /* fluid_rev_dattorro.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fluid_rev_dattorro.cpp; sourceTree = "<group>"; };
+		9A8D47D4307B53C9004F9331 /* fluid_rev_fdn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_rev_fdn.h; sourceTree = "<group>"; };
+		9A8D47D5307B53C9004F9331 /* fluid_rev_fdn.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fluid_rev_fdn.cpp; sourceTree = "<group>"; };
+		9A8D47D6307B53C9004F9331 /* fluid_rev_filters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_rev_filters.h; sourceTree = "<group>"; };
+		9A8D47D7307B53C9004F9331 /* fluid_rev_freeverb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_rev_freeverb.h; sourceTree = "<group>"; };
+		9A8D47D8307B53C9004F9331 /* fluid_rev_freeverb.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fluid_rev_freeverb.cpp; sourceTree = "<group>"; };
+		9A8D47D9307B53C9004F9331 /* fluid_rev_lexverb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_rev_lexverb.h; sourceTree = "<group>"; };
+		9A8D47DA307B53C9004F9331 /* fluid_rev_lexverb.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fluid_rev_lexverb.cpp; sourceTree = "<group>"; };
+		9A8D47DB307B53C9004F9331 /* fluid_rev_signalsmith.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_rev_signalsmith.h; sourceTree = "<group>"; };
+		9A8D47DC307B53C9004F9331 /* fluid_rev_signalsmith.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fluid_rev_signalsmith.cpp; sourceTree = "<group>"; };
+		9A8D47DD307B53C9004F9331 /* fluid_rvoice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_rvoice.h; sourceTree = "<group>"; };
+		9A8D47DE307B53C9004F9331 /* fluid_rvoice.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_rvoice.c; sourceTree = "<group>"; };
+		9A8D47DF307B53C9004F9331 /* fluid_rvoice_dsp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fluid_rvoice_dsp.cpp; sourceTree = "<group>"; };
+		9A8D47E0307B53C9004F9331 /* fluid_rvoice_dsp_sinc.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fluid_rvoice_dsp_sinc.hpp; sourceTree = "<group>"; };
+		9A8D47E1307B53C9004F9331 /* fluid_rvoice_dsp_tables.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_rvoice_dsp_tables.h; sourceTree = "<group>"; };
+		9A8D47E2307B53C9004F9331 /* fluid_rvoice_event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_rvoice_event.h; sourceTree = "<group>"; };
+		9A8D47E3307B53C9004F9331 /* fluid_rvoice_event.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_rvoice_event.c; sourceTree = "<group>"; };
+		9A8D47E4307B53C9004F9331 /* fluid_rvoice_mixer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_rvoice_mixer.h; sourceTree = "<group>"; };
+		9A8D47E5307B53C9004F9331 /* fluid_rvoice_mixer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_rvoice_mixer.c; sourceTree = "<group>"; };
+		9A8D47E7307B53C9004F9331 /* fluid_defsfont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_defsfont.h; sourceTree = "<group>"; };
+		9A8D47E8307B53C9004F9331 /* fluid_defsfont.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_defsfont.c; sourceTree = "<group>"; };
+		9A8D47E9307B53C9004F9331 /* fluid_dls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_dls.h; sourceTree = "<group>"; };
+		9A8D47EA307B53C9004F9331 /* fluid_dls.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fluid_dls.cpp; sourceTree = "<group>"; };
+		9A8D47EB307B53C9004F9331 /* fluid_samplecache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_samplecache.h; sourceTree = "<group>"; };
+		9A8D47EC307B53C9004F9331 /* fluid_samplecache.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_samplecache.c; sourceTree = "<group>"; };
+		9A8D47ED307B53C9004F9331 /* fluid_sffile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_sffile.h; sourceTree = "<group>"; };
+		9A8D47EE307B53C9004F9331 /* fluid_sffile.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_sffile.c; sourceTree = "<group>"; };
+		9A8D47EF307B53C9004F9331 /* fluid_sfont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_sfont.h; sourceTree = "<group>"; };
+		9A8D47F0307B53C9004F9331 /* fluid_sfont.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_sfont.c; sourceTree = "<group>"; };
+		9A8D47F2307B53C9004F9331 /* fluid_conv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_conv.h; sourceTree = "<group>"; };
+		9A8D47F3307B53C9004F9331 /* fluid_conv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_conv.c; sourceTree = "<group>"; };
+		9A8D47F4307B53C9004F9331 /* fluid_conv_tables.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_conv_tables.h; sourceTree = "<group>"; };
+		9A8D47F5307B53C9004F9331 /* fluid_file.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_file.h; sourceTree = "<group>"; };
+		9A8D47F6307B53C9004F9331 /* fluid_file.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fluid_file.cpp; sourceTree = "<group>"; };
+		9A8D47F7307B53C9004F9331 /* fluid_hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_hash.h; sourceTree = "<group>"; };
+		9A8D47F8307B53C9004F9331 /* fluid_hash.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_hash.c; sourceTree = "<group>"; };
+		9A8D47F9307B53C9004F9331 /* fluid_list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_list.h; sourceTree = "<group>"; };
+		9A8D47FA307B53C9004F9331 /* fluid_list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_list.c; sourceTree = "<group>"; };
+		9A8D47FB307B53C9004F9331 /* fluid_locked_atomics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_locked_atomics.h; sourceTree = "<group>"; };
+		9A8D47FC307B53C9004F9331 /* fluid_module.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_module.h; sourceTree = "<group>"; };
+		9A8D47FD307B53C9004F9331 /* fluid_module.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fluid_module.cpp; sourceTree = "<group>"; };
+		9A8D47FE307B53C9004F9331 /* fluid_ringbuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_ringbuffer.h; sourceTree = "<group>"; };
+		9A8D47FF307B53C9004F9331 /* fluid_ringbuffer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_ringbuffer.c; sourceTree = "<group>"; };
+		9A8D4800307B53C9004F9331 /* fluid_settings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_settings.h; sourceTree = "<group>"; };
+		9A8D4801307B53C9004F9331 /* fluid_settings.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_settings.c; sourceTree = "<group>"; };
+		9A8D4802307B53C9004F9331 /* fluid_stub_functions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_stub_functions.h; sourceTree = "<group>"; };
+		9A8D4803307B53C9004F9331 /* fluid_sys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_sys.h; sourceTree = "<group>"; };
+		9A8D4804307B53C9004F9331 /* fluid_sys.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_sys.c; sourceTree = "<group>"; };
+		9A8D4805307B53C9004F9331 /* fluid_sys_cpp11.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_sys_cpp11.h; sourceTree = "<group>"; };
+		9A8D4806307B53C9004F9331 /* fluid_sys_cpp11.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fluid_sys_cpp11.cpp; sourceTree = "<group>"; };
+		9A8D4807307B53C9004F9331 /* fluid_sys_embedded.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_sys_embedded.h; sourceTree = "<group>"; };
+		9A8D4808307B53C9004F9331 /* fluid_sys_embedded.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_sys_embedded.c; sourceTree = "<group>"; };
+		9A8D4809307B53C9004F9331 /* fluidsynth_priv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluidsynth_priv.h; sourceTree = "<group>"; };
+		9A8D488A307B542F004F9331 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		9A8D488C307B5445004F9331 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A8D424D307B4C1D004F9331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A8D4246307B4C1D004F9331 = {
+			isa = PBXGroup;
+			children = (
+				9A8D475A307B4D00004F9331 /* fluidsynth */,
+				9A8D4889307B542F004F9331 /* Frameworks */,
+				9A8D4250307B4C1D004F9331 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A8D4250307B4C1D004F9331 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A8D424F307B4C1D004F9331 /* libfluidsynth.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A8D475A307B4D00004F9331 /* fluidsynth */ = {
+			isa = PBXGroup;
+			children = (
+				9A8D475F307B4DD8004F9331 /* src */,
+				9A8D475E307B4DA7004F9331 /* fluidsynth */,
+			);
+			path = fluidsynth;
+			sourceTree = "<group>";
+		};
+		9A8D475E307B4DA7004F9331 /* fluidsynth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = fluidsynth;
+			sourceTree = "<group>";
+		};
+		9A8D475F307B4DD8004F9331 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9A8D478D307B53C9004F9331 /* bindings */,
+				9A8D47AA307B53C9004F9331 /* drivers */,
+				9A8D47AB307B53C9004F9331 /* fluid_wasapi_device_enumerate.c */,
+				9A8D47AC307B53C9004F9331 /* fluidsynth.c */,
+				9A8D47B6307B53C9004F9331 /* gentables */,
+				9A8D47C1307B53C9004F9331 /* midi */,
+				9A8D47E6307B53C9004F9331 /* rvoice */,
+				9A8D47F1307B53C9004F9331 /* sfloader */,
+				9A8D480A307B53C9004F9331 /* utils */,
+				9A8D4760307B4DFB004F9331 /* synth */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		9A8D4760307B4DFB004F9331 /* synth */ = {
+			isa = PBXGroup;
+			children = (
+				9A8D4761307B4E18004F9331 /* fluid_chan.h */,
+				9A8D4762307B4E18004F9331 /* fluid_chan.c */,
+				9A8D4763307B4E18004F9331 /* fluid_event.h */,
+				9A8D4764307B4E18004F9331 /* fluid_event.c */,
+				9A8D4765307B4E18004F9331 /* fluid_gen.h */,
+				9A8D4766307B4E18004F9331 /* fluid_gen.c */,
+				9A8D4767307B4E18004F9331 /* fluid_mod.h */,
+				9A8D4768307B4E18004F9331 /* fluid_mod.c */,
+				9A8D4769307B4E18004F9331 /* fluid_synth.h */,
+				9A8D476A307B4E18004F9331 /* fluid_synth.c */,
+				9A8D476B307B4E18004F9331 /* fluid_synth_monopoly.c */,
+				9A8D476C307B4E18004F9331 /* fluid_synth_write_int.h */,
+				9A8D476D307B4E18004F9331 /* fluid_synth_write_int.cpp */,
+				9A8D476E307B4E18004F9331 /* fluid_tuning.h */,
+				9A8D476F307B4E18004F9331 /* fluid_tuning.c */,
+				9A8D4770307B4E18004F9331 /* fluid_voice.h */,
+				9A8D4771307B4E18004F9331 /* fluid_voice.c */,
+			);
+			path = synth;
+			sourceTree = "<group>";
+		};
+		9A8D478D307B53C9004F9331 /* bindings */ = {
+			isa = PBXGroup;
+			children = (
+				9A8D4786307B53C9004F9331 /* fluid_cmd.h */,
+				9A8D4787307B53C9004F9331 /* fluid_cmd.c */,
+				9A8D4788307B53C9004F9331 /* fluid_filerenderer.c */,
+				9A8D4789307B53C9004F9331 /* fluid_ladspa.h */,
+				9A8D478A307B53C9004F9331 /* fluid_ladspa.c */,
+				9A8D478B307B53C9004F9331 /* fluid_rtkit.h */,
+				9A8D478C307B53C9004F9331 /* fluid_rtkit.c */,
+			);
+			path = bindings;
+			sourceTree = "<group>";
+		};
+		9A8D47AA307B53C9004F9331 /* drivers */ = {
+			isa = PBXGroup;
+			children = (
+				9A8D478E307B53C9004F9331 /* fluid_adriver.h */,
+				9A8D478F307B53C9004F9331 /* fluid_adriver.c */,
+				9A8D4790307B53C9004F9331 /* fluid_alsa.c */,
+				9A8D4791307B53C9004F9331 /* fluid_audio_convert.h */,
+				9A8D4792307B53C9004F9331 /* fluid_audio_convert.cpp */,
+				9A8D4793307B53C9004F9331 /* fluid_aufile.c */,
+				9A8D4794307B53C9004F9331 /* fluid_coreaudio.c */,
+				9A8D4795307B53C9004F9331 /* fluid_coreaudio_avaudiosession.h */,
+				9A8D4796307B53C9004F9331 /* fluid_coreaudio_avaudiosession.m */,
+				9A8D4797307B53C9004F9331 /* fluid_coremidi.c */,
+				9A8D4798307B53C9004F9331 /* fluid_dart.c */,
+				9A8D4799307B53C9004F9331 /* fluid_dsound.c */,
+				9A8D479A307B53C9004F9331 /* fluid_jack.c */,
+				9A8D479B307B53C9004F9331 /* fluid_kai.c */,
+				9A8D479C307B53C9004F9331 /* fluid_mdriver.h */,
+				9A8D479D307B53C9004F9331 /* fluid_mdriver.c */,
+				9A8D479E307B53C9004F9331 /* fluid_midishare.c */,
+				9A8D479F307B53C9004F9331 /* fluid_oboe.cpp */,
+				9A8D47A0307B53C9004F9331 /* fluid_opensles.c */,
+				9A8D47A1307B53C9004F9331 /* fluid_oss.c */,
+				9A8D47A2307B53C9004F9331 /* fluid_pipewire.c */,
+				9A8D47A3307B53C9004F9331 /* fluid_portaudio.c */,
+				9A8D47A4307B53C9004F9331 /* fluid_pulse.c */,
+				9A8D47A5307B53C9004F9331 /* fluid_sdl3.c */,
+				9A8D47A6307B53C9004F9331 /* fluid_sndmgr.c */,
+				9A8D47A7307B53C9004F9331 /* fluid_wasapi.c */,
+				9A8D47A8307B53C9004F9331 /* fluid_waveout.c */,
+				9A8D47A9307B53C9004F9331 /* fluid_winmidi.c */,
+			);
+			path = drivers;
+			sourceTree = "<group>";
+		};
+		9A8D47B6307B53C9004F9331 /* gentables */ = {
+			isa = PBXGroup;
+			children = (
+				9A8D47AD307B53C9004F9331 /* ConstExprArr.hpp */,
+				9A8D47AE307B53C9004F9331 /* fluid_cb2amp.cpp */,
+				9A8D47AF307B53C9004F9331 /* fluid_concave.cpp */,
+				9A8D47B0307B53C9004F9331 /* fluid_convex.cpp */,
+				9A8D47B1307B53C9004F9331 /* fluid_ct2hz.cpp */,
+				9A8D47B2307B53C9004F9331 /* fluid_interp_coeff.cpp */,
+				9A8D47B3307B53C9004F9331 /* fluid_interp_coeff_linear.cpp */,
+				9A8D47B4307B53C9004F9331 /* fluid_interp_coeff_sinc7.cpp */,
+				9A8D47B5307B53C9004F9331 /* fluid_pan.cpp */,
+			);
+			path = gentables;
+			sourceTree = "<group>";
+		};
+		9A8D47C1307B53C9004F9331 /* midi */ = {
+			isa = PBXGroup;
+			children = (
+				9A8D47B7307B53C9004F9331 /* fluid_midi.h */,
+				9A8D47B8307B53C9004F9331 /* fluid_midi.c */,
+				9A8D47B9307B53C9004F9331 /* fluid_midi_router.h */,
+				9A8D47BA307B53C9004F9331 /* fluid_midi_router.c */,
+				9A8D47BB307B53C9004F9331 /* fluid_seq.c */,
+				9A8D47BC307B53C9004F9331 /* fluid_seq_queue.h */,
+				9A8D47BD307B53C9004F9331 /* fluid_seq_queue.cpp */,
+				9A8D47BE307B53C9004F9331 /* fluid_seqbind.c */,
+				9A8D47BF307B53C9004F9331 /* fluid_seqbind_notes.h */,
+				9A8D47C0307B53C9004F9331 /* fluid_seqbind_notes.cpp */,
+			);
+			path = midi;
+			sourceTree = "<group>";
+		};
+		9A8D47E6307B53C9004F9331 /* rvoice */ = {
+			isa = PBXGroup;
+			children = (
+				9A8D47C2307B53C9004F9331 /* fluid_adsr_env.h */,
+				9A8D47C3307B53C9004F9331 /* fluid_adsr_env.c */,
+				9A8D47C4307B53C9004F9331 /* fluid_chorus.h */,
+				9A8D47C5307B53C9004F9331 /* fluid_chorus.c */,
+				9A8D47C6307B53C9004F9331 /* fluid_iir_filter.h */,
+				9A8D47C7307B53C9004F9331 /* fluid_iir_filter.c */,
+				9A8D47C8307B53C9004F9331 /* fluid_iir_filter_impl.cpp */,
+				9A8D47C9307B53C9004F9331 /* fluid_lfo.h */,
+				9A8D47CA307B53C9004F9331 /* fluid_lfo.c */,
+				9A8D47CB307B53C9004F9331 /* fluid_limiter.h */,
+				9A8D47CC307B53C9004F9331 /* fluid_limiter.c */,
+				9A8D47CD307B53C9004F9331 /* fluid_limiter_impl.h */,
+				9A8D47CE307B53C9004F9331 /* fluid_limiter_impl.cpp */,
+				9A8D47CF307B53C9004F9331 /* fluid_phase.h */,
+				9A8D47D0307B53C9004F9331 /* fluid_rev.h */,
+				9A8D47D1307B53C9004F9331 /* fluid_rev.cpp */,
+				9A8D47D2307B53C9004F9331 /* fluid_rev_dattorro.h */,
+				9A8D47D3307B53C9004F9331 /* fluid_rev_dattorro.cpp */,
+				9A8D47D4307B53C9004F9331 /* fluid_rev_fdn.h */,
+				9A8D47D5307B53C9004F9331 /* fluid_rev_fdn.cpp */,
+				9A8D47D6307B53C9004F9331 /* fluid_rev_filters.h */,
+				9A8D47D7307B53C9004F9331 /* fluid_rev_freeverb.h */,
+				9A8D47D8307B53C9004F9331 /* fluid_rev_freeverb.cpp */,
+				9A8D47D9307B53C9004F9331 /* fluid_rev_lexverb.h */,
+				9A8D47DA307B53C9004F9331 /* fluid_rev_lexverb.cpp */,
+				9A8D47DB307B53C9004F9331 /* fluid_rev_signalsmith.h */,
+				9A8D47DC307B53C9004F9331 /* fluid_rev_signalsmith.cpp */,
+				9A8D47DD307B53C9004F9331 /* fluid_rvoice.h */,
+				9A8D47DE307B53C9004F9331 /* fluid_rvoice.c */,
+				9A8D47DF307B53C9004F9331 /* fluid_rvoice_dsp.cpp */,
+				9A8D47E0307B53C9004F9331 /* fluid_rvoice_dsp_sinc.hpp */,
+				9A8D47E1307B53C9004F9331 /* fluid_rvoice_dsp_tables.h */,
+				9A8D47E2307B53C9004F9331 /* fluid_rvoice_event.h */,
+				9A8D47E3307B53C9004F9331 /* fluid_rvoice_event.c */,
+				9A8D47E4307B53C9004F9331 /* fluid_rvoice_mixer.h */,
+				9A8D47E5307B53C9004F9331 /* fluid_rvoice_mixer.c */,
+			);
+			path = rvoice;
+			sourceTree = "<group>";
+		};
+		9A8D47F1307B53C9004F9331 /* sfloader */ = {
+			isa = PBXGroup;
+			children = (
+				9A8D47E7307B53C9004F9331 /* fluid_defsfont.h */,
+				9A8D47E8307B53C9004F9331 /* fluid_defsfont.c */,
+				9A8D47E9307B53C9004F9331 /* fluid_dls.h */,
+				9A8D47EA307B53C9004F9331 /* fluid_dls.cpp */,
+				9A8D47EB307B53C9004F9331 /* fluid_samplecache.h */,
+				9A8D47EC307B53C9004F9331 /* fluid_samplecache.c */,
+				9A8D47ED307B53C9004F9331 /* fluid_sffile.h */,
+				9A8D47EE307B53C9004F9331 /* fluid_sffile.c */,
+				9A8D47EF307B53C9004F9331 /* fluid_sfont.h */,
+				9A8D47F0307B53C9004F9331 /* fluid_sfont.c */,
+			);
+			path = sfloader;
+			sourceTree = "<group>";
+		};
+		9A8D480A307B53C9004F9331 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				9A8D47F2307B53C9004F9331 /* fluid_conv.h */,
+				9A8D47F3307B53C9004F9331 /* fluid_conv.c */,
+				9A8D47F4307B53C9004F9331 /* fluid_conv_tables.h */,
+				9A8D47F5307B53C9004F9331 /* fluid_file.h */,
+				9A8D47F6307B53C9004F9331 /* fluid_file.cpp */,
+				9A8D47F7307B53C9004F9331 /* fluid_hash.h */,
+				9A8D47F8307B53C9004F9331 /* fluid_hash.c */,
+				9A8D47F9307B53C9004F9331 /* fluid_list.h */,
+				9A8D47FA307B53C9004F9331 /* fluid_list.c */,
+				9A8D47FB307B53C9004F9331 /* fluid_locked_atomics.h */,
+				9A8D47FC307B53C9004F9331 /* fluid_module.h */,
+				9A8D47FD307B53C9004F9331 /* fluid_module.cpp */,
+				9A8D47FE307B53C9004F9331 /* fluid_ringbuffer.h */,
+				9A8D47FF307B53C9004F9331 /* fluid_ringbuffer.c */,
+				9A8D4800307B53C9004F9331 /* fluid_settings.h */,
+				9A8D4801307B53C9004F9331 /* fluid_settings.c */,
+				9A8D4802307B53C9004F9331 /* fluid_stub_functions.h */,
+				9A8D4803307B53C9004F9331 /* fluid_sys.h */,
+				9A8D4804307B53C9004F9331 /* fluid_sys.c */,
+				9A8D4805307B53C9004F9331 /* fluid_sys_cpp11.h */,
+				9A8D4806307B53C9004F9331 /* fluid_sys_cpp11.cpp */,
+				9A8D4807307B53C9004F9331 /* fluid_sys_embedded.h */,
+				9A8D4808307B53C9004F9331 /* fluid_sys_embedded.c */,
+				9A8D4809307B53C9004F9331 /* fluidsynth_priv.h */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		9A8D4889307B542F004F9331 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A8D488C307B5445004F9331 /* AVFoundation.framework */,
+				9A8D488A307B542F004F9331 /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9A8D424B307B4C1D004F9331 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			files = (
+				9A8D4772307B4E18004F9331 /* fluid_synth_write_int.h in Headers */,
+				9A8D4773307B4E18004F9331 /* fluid_tuning.h in Headers */,
+				9A8D4774307B4E18004F9331 /* fluid_voice.h in Headers */,
+				9A8D480B307B53C9004F9331 /* fluid_phase.h in Headers */,
+				9A8D480C307B53C9004F9331 /* fluid_stub_functions.h in Headers */,
+				9A8D480D307B53C9004F9331 /* fluid_rvoice_dsp_sinc.hpp in Headers */,
+				9A8D480E307B53C9004F9331 /* fluid_rev_fdn.h in Headers */,
+				9A8D480F307B53C9004F9331 /* fluid_dls.h in Headers */,
+				9A8D4810307B53C9004F9331 /* fluid_seq_queue.h in Headers */,
+				9A8D4811307B53C9004F9331 /* fluid_midi_router.h in Headers */,
+				9A8D4812307B53C9004F9331 /* fluid_rev.h in Headers */,
+				9A8D4813307B53C9004F9331 /* fluid_iir_filter.h in Headers */,
+				9A8D4814307B53C9004F9331 /* fluid_rvoice.h in Headers */,
+				9A8D4815307B53C9004F9331 /* fluid_rev_filters.h in Headers */,
+				9A8D4816307B53C9004F9331 /* fluid_ladspa.h in Headers */,
+				9A8D4817307B53C9004F9331 /* fluid_mdriver.h in Headers */,
+				9A8D4818307B53C9004F9331 /* fluid_limiter.h in Headers */,
+				9A8D4819307B53C9004F9331 /* fluid_list.h in Headers */,
+				9A8D481A307B53C9004F9331 /* fluid_rev_freeverb.h in Headers */,
+				9A8D481B307B53C9004F9331 /* fluid_sys_cpp11.h in Headers */,
+				9A8D481C307B53C9004F9331 /* fluid_cmd.h in Headers */,
+				9A8D481D307B53C9004F9331 /* fluid_conv.h in Headers */,
+				9A8D481E307B53C9004F9331 /* fluid_conv_tables.h in Headers */,
+				9A8D481F307B53C9004F9331 /* fluid_ringbuffer.h in Headers */,
+				9A8D4820307B53C9004F9331 /* fluid_rev_dattorro.h in Headers */,
+				9A8D4821307B53C9004F9331 /* fluid_rev_lexverb.h in Headers */,
+				9A8D4822307B53C9004F9331 /* fluid_seqbind_notes.h in Headers */,
+				9A8D4823307B53C9004F9331 /* fluid_sffile.h in Headers */,
+				9A8D4824307B53C9004F9331 /* fluid_rvoice_dsp_tables.h in Headers */,
+				9A8D4825307B53C9004F9331 /* fluid_sys_embedded.h in Headers */,
+				9A8D4826307B53C9004F9331 /* fluid_sys.h in Headers */,
+				9A8D4827307B53C9004F9331 /* fluid_rvoice_event.h in Headers */,
+				9A8D4828307B53C9004F9331 /* fluid_rvoice_mixer.h in Headers */,
+				9A8D4829307B53C9004F9331 /* fluid_limiter_impl.h in Headers */,
+				9A8D482A307B53C9004F9331 /* fluid_samplecache.h in Headers */,
+				9A8D482B307B53C9004F9331 /* fluid_file.h in Headers */,
+				9A8D482C307B53C9004F9331 /* fluidsynth_priv.h in Headers */,
+				9A8D482D307B53C9004F9331 /* fluid_settings.h in Headers */,
+				9A8D482E307B53C9004F9331 /* ConstExprArr.hpp in Headers */,
+				9A8D482F307B53C9004F9331 /* fluid_defsfont.h in Headers */,
+				9A8D4830307B53C9004F9331 /* fluid_sfont.h in Headers */,
+				9A8D4831307B53C9004F9331 /* fluid_adriver.h in Headers */,
+				9A8D4832307B53C9004F9331 /* fluid_hash.h in Headers */,
+				9A8D4833307B53C9004F9331 /* fluid_chorus.h in Headers */,
+				9A8D4834307B53C9004F9331 /* fluid_rtkit.h in Headers */,
+				9A8D4835307B53C9004F9331 /* fluid_midi.h in Headers */,
+				9A8D4836307B53C9004F9331 /* fluid_module.h in Headers */,
+				9A8D4837307B53C9004F9331 /* fluid_rev_signalsmith.h in Headers */,
+				9A8D4838307B53C9004F9331 /* fluid_locked_atomics.h in Headers */,
+				9A8D4839307B53C9004F9331 /* fluid_audio_convert.h in Headers */,
+				9A8D483A307B53C9004F9331 /* fluid_lfo.h in Headers */,
+				9A8D483B307B53C9004F9331 /* fluid_coreaudio_avaudiosession.h in Headers */,
+				9A8D483C307B53C9004F9331 /* fluid_adsr_env.h in Headers */,
+				9A8D4775307B4E18004F9331 /* fluid_mod.h in Headers */,
+				9A8D4776307B4E18004F9331 /* fluid_gen.h in Headers */,
+				9A8D4777307B4E18004F9331 /* fluid_chan.h in Headers */,
+				9A8D4778307B4E18004F9331 /* fluid_synth.h in Headers */,
+				9A8D4779307B4E18004F9331 /* fluid_event.h in Headers */,
+			);
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9A8D424E307B4C1D004F9331 /* fluidsynth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A8D425A307B4C1D004F9331 /* Build configuration list for PBXNativeTarget "fluidsynth" */;
+			buildPhases = (
+				9A8D424B307B4C1D004F9331 /* Headers */,
+				9A8D424C307B4C1D004F9331 /* Sources */,
+				9A8D424D307B4C1D004F9331 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			name = fluidsynth;
+			productName = fluidsynth;
+			productReference = 9A8D424F307B4C1D004F9331 /* libfluidsynth.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A8D4247307B4C1D004F9331 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					9A8D424E307B4C1D004F9331 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = 9A8D424A307B4C1D004F9331 /* Build configuration list for PBXProject "fluidsynth" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A8D4246307B4C1D004F9331;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9A8D4250307B4C1D004F9331 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A8D424E307B4C1D004F9331 /* fluidsynth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A8D424C307B4C1D004F9331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				9A8D477A307B4E18004F9331 /* fluid_event.c in Sources */,
+				9A8D477B307B4E18004F9331 /* fluid_synth.c in Sources */,
+				9A8D477C307B4E18004F9331 /* fluid_synth_write_int.cpp in Sources */,
+				9A8D477D307B4E18004F9331 /* fluid_synth_monopoly.c in Sources */,
+				9A8D477E307B4E18004F9331 /* fluid_mod.c in Sources */,
+				9A8D477F307B4E18004F9331 /* fluid_chan.c in Sources */,
+				9A8D4780307B4E18004F9331 /* fluid_voice.c in Sources */,
+				9A8D4781307B4E18004F9331 /* fluid_tuning.c in Sources */,
+				9A8D4782307B4E18004F9331 /* fluid_gen.c in Sources */,
+				9A8D483D307B53C9004F9331 /* fluid_oboe.cpp in Sources */,
+				9A8D483E307B53C9004F9331 /* fluid_midi.c in Sources */,
+				9A8D483F307B53C9004F9331 /* fluid_rvoice_event.c in Sources */,
+				9A8D4840307B53C9004F9331 /* fluid_sys.c in Sources */,
+				9A8D4841307B53C9004F9331 /* fluid_limiter_impl.cpp in Sources */,
+				9A8D4842307B53C9004F9331 /* fluid_waveout.c in Sources */,
+				9A8D4843307B53C9004F9331 /* fluid_mdriver.c in Sources */,
+				9A8D4844307B53C9004F9331 /* fluid_rvoice_mixer.c in Sources */,
+				9A8D4845307B53C9004F9331 /* fluid_wasapi.c in Sources */,
+				9A8D4846307B53C9004F9331 /* fluid_convex.cpp in Sources */,
+				9A8D4847307B53C9004F9331 /* fluid_aufile.c in Sources */,
+				9A8D4848307B53C9004F9331 /* fluid_wasapi_device_enumerate.c in Sources */,
+				9A8D4849307B53C9004F9331 /* fluid_pipewire.c in Sources */,
+				9A8D484A307B53C9004F9331 /* fluid_defsfont.c in Sources */,
+				9A8D484B307B53C9004F9331 /* fluid_file.cpp in Sources */,
+				9A8D484C307B53C9004F9331 /* fluid_ringbuffer.c in Sources */,
+				9A8D484D307B53C9004F9331 /* fluid_coremidi.c in Sources */,
+				9A8D484E307B53C9004F9331 /* fluid_sys_embedded.c in Sources */,
+				9A8D484F307B53C9004F9331 /* fluid_interp_coeff.cpp in Sources */,
+				9A8D4850307B53C9004F9331 /* fluid_filerenderer.c in Sources */,
+				9A8D4851307B53C9004F9331 /* fluid_coreaudio.c in Sources */,
+				9A8D4852307B53C9004F9331 /* fluid_portaudio.c in Sources */,
+				9A8D4853307B53C9004F9331 /* fluid_kai.c in Sources */,
+				9A8D4854307B53C9004F9331 /* fluid_hash.c in Sources */,
+				9A8D4855307B53C9004F9331 /* fluid_jack.c in Sources */,
+				9A8D4856307B53C9004F9331 /* fluid_sys_cpp11.cpp in Sources */,
+				9A8D4857307B53C9004F9331 /* fluid_list.c in Sources */,
+				9A8D4858307B53C9004F9331 /* fluidsynth.c in Sources */,
+				9A8D485A307B53C9004F9331 /* fluid_conv.c in Sources */,
+				9A8D485B307B53C9004F9331 /* fluid_dart.c in Sources */,
+				9A8D485C307B53C9004F9331 /* fluid_interp_coeff_sinc7.cpp in Sources */,
+				9A8D485D307B53C9004F9331 /* fluid_cb2amp.cpp in Sources */,
+				9A8D485E307B53C9004F9331 /* fluid_lfo.c in Sources */,
+				9A8D485F307B53C9004F9331 /* fluid_adriver.c in Sources */,
+				9A8D4860307B53C9004F9331 /* fluid_midi_router.c in Sources */,
+				9A8D4861307B53C9004F9331 /* fluid_seqbind_notes.cpp in Sources */,
+				9A8D4862307B53C9004F9331 /* fluid_ladspa.c in Sources */,
+				9A8D4863307B53C9004F9331 /* fluid_samplecache.c in Sources */,
+				9A8D4864307B53C9004F9331 /* fluid_concave.cpp in Sources */,
+				9A8D4865307B53C9004F9331 /* fluid_rtkit.c in Sources */,
+				9A8D4866307B53C9004F9331 /* fluid_rev_freeverb.cpp in Sources */,
+				9A8D4867307B53C9004F9331 /* fluid_ct2hz.cpp in Sources */,
+				9A8D4868307B53C9004F9331 /* fluid_module.cpp in Sources */,
+				9A8D4869307B53C9004F9331 /* fluid_settings.c in Sources */,
+				9A8D486A307B53C9004F9331 /* fluid_adsr_env.c in Sources */,
+				9A8D486B307B53C9004F9331 /* fluid_seq.c in Sources */,
+				9A8D486C307B53C9004F9331 /* fluid_sfont.c in Sources */,
+				9A8D486D307B53C9004F9331 /* fluid_rvoice.c in Sources */,
+				9A8D486E307B53C9004F9331 /* fluid_opensles.c in Sources */,
+				9A8D486F307B53C9004F9331 /* fluid_sndmgr.c in Sources */,
+				9A8D4870307B53C9004F9331 /* fluid_sdl3.c in Sources */,
+				9A8D4871307B53C9004F9331 /* fluid_oss.c in Sources */,
+				9A8D4872307B53C9004F9331 /* fluid_pulse.c in Sources */,
+				9A8D4873307B53C9004F9331 /* fluid_iir_filter.c in Sources */,
+				9A8D4874307B53C9004F9331 /* fluid_midishare.c in Sources */,
+				9A8D4875307B53C9004F9331 /* fluid_interp_coeff_linear.cpp in Sources */,
+				9A8D4876307B53C9004F9331 /* fluid_rev.cpp in Sources */,
+				9A8D4877307B53C9004F9331 /* fluid_dls.cpp in Sources */,
+				9A8D4878307B53C9004F9331 /* fluid_rvoice_dsp.cpp in Sources */,
+				9A8D4879307B53C9004F9331 /* fluid_alsa.c in Sources */,
+				9A8D487A307B53C9004F9331 /* fluid_sffile.c in Sources */,
+				9A8D487B307B53C9004F9331 /* fluid_rev_lexverb.cpp in Sources */,
+				9A8D487C307B53C9004F9331 /* fluid_audio_convert.cpp in Sources */,
+				9A8D487D307B53C9004F9331 /* fluid_rev_signalsmith.cpp in Sources */,
+				9A8D487E307B53C9004F9331 /* fluid_chorus.c in Sources */,
+				9A8D487F307B53C9004F9331 /* fluid_winmidi.c in Sources */,
+				9A8D4880307B53C9004F9331 /* fluid_iir_filter_impl.cpp in Sources */,
+				9A8D4881307B53C9004F9331 /* fluid_limiter.c in Sources */,
+				9A8D4882307B53C9004F9331 /* fluid_rev_fdn.cpp in Sources */,
+				9A8D4883307B53C9004F9331 /* fluid_seq_queue.cpp in Sources */,
+				9A8D4884307B53C9004F9331 /* fluid_cmd.c in Sources */,
+				9A8D4885307B53C9004F9331 /* fluid_dsound.c in Sources */,
+				9A8D4886307B53C9004F9331 /* fluid_pan.cpp in Sources */,
+				9A8D4887307B53C9004F9331 /* fluid_seqbind.c in Sources */,
+				9A8D4888307B53C9004F9331 /* fluid_rev_dattorro.cpp in Sources */,
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9A8D4258307B4C1D004F9331 /* Debug configuration for PBXProject "fluidsynth" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_PRAGMA_PACK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = HS8735NRM5;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				EXECUTABLE_EXTENSION = dylib;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					HAVE_CONFIG_H,
+					__LIBARCHIVE_BUILD,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				"GCC_WARN_64_TO_32_BIT_CONVERSION[arch=*64]" = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path",
+					"@loader_path",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(WorkspaceDir)/../operating_system/storage-$(PLATFORM_MODIFIER)/$(CONFIGURATION)/library",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-all_load";
+				PLATFORM_MODIFIER = macos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/include",
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/configuration",
+					"$(WorkspaceDir)/port/include",
+					"$(WorkspaceDir)/source/app/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/configuration",
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/configuration/$(PROJECT_NAME)",
+					.,
+					"$(WorkspaceDir)/source",
+					"$(WorkspaceDir)/source/include",
+					"$(WorkspaceDir)/source/app",
+					"$(WorkspaceDir)/source/app/include",
+					"$(WorkspaceDir)/operating_system",
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)",
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/include/configuration_selection/$(CONFIGURATION)",
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/include",
+					"$(WorkspaceDir)/port/_",
+					"$(WorkspaceDir)/port/include",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/..",
+					"$(PROJECT_DIR)/../..",
+					"$(HOME)/sensitive/sensitive/include",
+					"$(PROJECT_DIR)/fluidsynth/src/utils",
+					"$(PROJECT_DIR)/fluidsynth/src/rvoice",
+					"$(PROJECT_DIR)/fluidsynth/src/bindings",
+					"$(PROJECT_DIR)/fluidsynth/src/sfloader",
+					"$(PROJECT_DIR)/fluidsynth/src",
+					"$(PROJECT_DIR)/fluidsynth/src/midi",
+					"$(PROJECT_DIR)/fluidsynth/src/synth",
+					"$(PROJECT_DIR)/fluidsynth/src/drivers",
+					"$(PROJECT_DIR)/fluidsynth/gcem/include",
+				);
+				USE_HEADERMAP = NO;
+				WorkspaceDir = "$(SRCROOT)/../../..";
+			};
+			name = Debug;
+		};
+		9A8D4259307B4C1D004F9331 /* Release configuration for PBXProject "fluidsynth" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_PRAGMA_PACK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = HS8735NRM5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				EXECUTABLE_EXTENSION = dylib;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					HAVE_CONFIG_H,
+					__LIBARCHIVE_BUILD,
+					NDEBUG,
+					"$(MACHINE_PREPROCESSOR_DEFINITIONS)",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				"GCC_WARN_64_TO_32_BIT_CONVERSION[arch=*64]" = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path",
+					"@loader_path",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(WorkspaceDir)/../operating_system/storage-$(PLATFORM_MODIFIER)/$(CONFIGURATION)/library",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-all_load";
+				PLATFORM_MODIFIER = macos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/include",
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/configuration",
+					"$(WorkspaceDir)/port/include",
+					"$(WorkspaceDir)/source/app/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/configuration",
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/configuration/$(PROJECT_NAME)",
+					.,
+					"$(WorkspaceDir)/source",
+					"$(WorkspaceDir)/source/include",
+					"$(WorkspaceDir)/source/app",
+					"$(WorkspaceDir)/source/app/include",
+					"$(WorkspaceDir)/operating_system",
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)",
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/include/configuration_selection/$(CONFIGURATION)",
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/include",
+					"$(WorkspaceDir)/port/_",
+					"$(WorkspaceDir)/port/include",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/..",
+					"$(PROJECT_DIR)/../..",
+					"$(HOME)/sensitive/sensitive/include",
+					"$(PROJECT_DIR)/fluidsynth/src/utils",
+					"$(PROJECT_DIR)/fluidsynth/src/rvoice",
+					"$(PROJECT_DIR)/fluidsynth/src/bindings",
+					"$(PROJECT_DIR)/fluidsynth/src/sfloader",
+					"$(PROJECT_DIR)/fluidsynth/src",
+					"$(PROJECT_DIR)/fluidsynth/src/midi",
+					"$(PROJECT_DIR)/fluidsynth/src/synth",
+					"$(PROJECT_DIR)/fluidsynth/src/drivers",
+					"$(PROJECT_DIR)/fluidsynth/gcem/include",
+				);
+				USE_HEADERMAP = NO;
+				WorkspaceDir = "$(SRCROOT)/../../..";
+			};
+			name = Release;
+		};
+		9A8D425B307B4C1D004F9331 /* Debug configuration for PBXNativeTarget "fluidsynth" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HS8735NRM5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				EXECUTABLE_EXTENSION = dylib;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				MACH_O_TYPE = mh_dylib;
+				PLATFORM_MODIFIER = macos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9A8D425C307B4C1D004F9331 /* Release configuration for PBXNativeTarget "fluidsynth" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HS8735NRM5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				EXECUTABLE_EXTENSION = dylib;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				MACH_O_TYPE = mh_dylib;
+				PLATFORM_MODIFIER = macos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A8D424A307B4C1D004F9331 /* Build configuration list for PBXProject "fluidsynth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8D4258307B4C1D004F9331 /* Debug configuration for PBXProject "fluidsynth" */,
+				9A8D4259307B4C1D004F9331 /* Release configuration for PBXProject "fluidsynth" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		9A8D425A307B4C1D004F9331 /* Build configuration list for PBXNativeTarget "fluidsynth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8D425B307B4C1D004F9331 /* Debug configuration for PBXNativeTarget "fluidsynth" */,
+				9A8D425C307B4C1D004F9331 /* Release configuration for PBXNativeTarget "fluidsynth" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A8D4247307B4C1D004F9331 /* Project object */;
+	validationLevel = 1;
+}

@@ -81,7 +81,7 @@
 		9A8D4841307B53C9004F9331 /* fluid_limiter_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47CE307B53C9004F9331 /* fluid_limiter_impl.cpp */; };
 		9A8D4842307B53C9004F9331 /* fluid_waveout.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47A8307B53C9004F9331 /* fluid_waveout.c */; };
 		9A8D4843307B53C9004F9331 /* fluid_mdriver.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D479D307B53C9004F9331 /* fluid_mdriver.c */; };
-		9A8D4844307B53C9004F9331 /* fluid_rvoice_mixer.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47E5307B53C9004F9331 /* fluid_rvoice_mixer.c */; };
+		9A8D4844307B53C9004F9331 /* fluid_rvoice_mixer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47E5307B53C9004F9331 /* fluid_rvoice_mixer.cpp */; };
 		9A8D4845307B53C9004F9331 /* fluid_wasapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47A7307B53C9004F9331 /* fluid_wasapi.c */; };
 		9A8D4846307B53C9004F9331 /* fluid_convex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47B0307B53C9004F9331 /* fluid_convex.cpp */; };
 		9A8D4847307B53C9004F9331 /* fluid_aufile.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D4793307B53C9004F9331 /* fluid_aufile.c */; };
@@ -101,7 +101,6 @@
 		9A8D4855307B53C9004F9331 /* fluid_jack.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D479A307B53C9004F9331 /* fluid_jack.c */; };
 		9A8D4856307B53C9004F9331 /* fluid_sys_cpp11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D4806307B53C9004F9331 /* fluid_sys_cpp11.cpp */; };
 		9A8D4857307B53C9004F9331 /* fluid_list.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47FA307B53C9004F9331 /* fluid_list.c */; };
-		9A8D4858307B53C9004F9331 /* fluidsynth.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47AC307B53C9004F9331 /* fluidsynth.c */; };
 		9A8D485A307B53C9004F9331 /* fluid_conv.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47F3307B53C9004F9331 /* fluid_conv.c */; };
 		9A8D485B307B53C9004F9331 /* fluid_dart.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D4798307B53C9004F9331 /* fluid_dart.c */; };
 		9A8D485C307B53C9004F9331 /* fluid_interp_coeff_sinc7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D47B4307B53C9004F9331 /* fluid_interp_coeff_sinc7.cpp */; };
@@ -261,7 +260,7 @@
 		9A8D47E2307B53C9004F9331 /* fluid_rvoice_event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_rvoice_event.h; sourceTree = "<group>"; };
 		9A8D47E3307B53C9004F9331 /* fluid_rvoice_event.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_rvoice_event.c; sourceTree = "<group>"; };
 		9A8D47E4307B53C9004F9331 /* fluid_rvoice_mixer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_rvoice_mixer.h; sourceTree = "<group>"; };
-		9A8D47E5307B53C9004F9331 /* fluid_rvoice_mixer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_rvoice_mixer.c; sourceTree = "<group>"; };
+		9A8D47E5307B53C9004F9331 /* fluid_rvoice_mixer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fluid_rvoice_mixer.cpp; sourceTree = "<group>"; };
 		9A8D47E7307B53C9004F9331 /* fluid_defsfont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_defsfont.h; sourceTree = "<group>"; };
 		9A8D47E8307B53C9004F9331 /* fluid_defsfont.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fluid_defsfont.c; sourceTree = "<group>"; };
 		9A8D47E9307B53C9004F9331 /* fluid_dls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fluid_dls.h; sourceTree = "<group>"; };
@@ -503,7 +502,7 @@
 				9A8D47E2307B53C9004F9331 /* fluid_rvoice_event.h */,
 				9A8D47E3307B53C9004F9331 /* fluid_rvoice_event.c */,
 				9A8D47E4307B53C9004F9331 /* fluid_rvoice_mixer.h */,
-				9A8D47E5307B53C9004F9331 /* fluid_rvoice_mixer.c */,
+				9A8D47E5307B53C9004F9331 /* fluid_rvoice_mixer.cpp */,
 			);
 			path = rvoice;
 			sourceTree = "<group>";
@@ -702,7 +701,7 @@
 				9A8D4841307B53C9004F9331 /* fluid_limiter_impl.cpp in Sources */,
 				9A8D4842307B53C9004F9331 /* fluid_waveout.c in Sources */,
 				9A8D4843307B53C9004F9331 /* fluid_mdriver.c in Sources */,
-				9A8D4844307B53C9004F9331 /* fluid_rvoice_mixer.c in Sources */,
+				9A8D4844307B53C9004F9331 /* fluid_rvoice_mixer.cpp in Sources */,
 				9A8D4845307B53C9004F9331 /* fluid_wasapi.c in Sources */,
 				9A8D4846307B53C9004F9331 /* fluid_convex.cpp in Sources */,
 				9A8D4847307B53C9004F9331 /* fluid_aufile.c in Sources */,
@@ -722,7 +721,6 @@
 				9A8D4855307B53C9004F9331 /* fluid_jack.c in Sources */,
 				9A8D4856307B53C9004F9331 /* fluid_sys_cpp11.cpp in Sources */,
 				9A8D4857307B53C9004F9331 /* fluid_list.c in Sources */,
-				9A8D4858307B53C9004F9331 /* fluidsynth.c in Sources */,
 				9A8D485A307B53C9004F9331 /* fluid_conv.c in Sources */,
 				9A8D485B307B53C9004F9331 /* fluid_dart.c in Sources */,
 				9A8D485C307B53C9004F9331 /* fluid_interp_coeff_sinc7.cpp in Sources */,

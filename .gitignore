@@ -1,5 +1,6 @@
 time-*/
 storage-*/
+build/
 workspace.xml
 cmake-build-*/
 cmake-time-*/

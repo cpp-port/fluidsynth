@@ -52,9 +52,6 @@
     <ClInclude Include="fluidsynth\src\rvoice\fluid_iir_filter.h">
       <Filter>Header Files\internal_include</Filter>
     </ClInclude>
-    <ClInclude Include="fluidsynth\src\sfloader\fluid_instpatch.h">
-      <Filter>Header Files\internal_include</Filter>
-    </ClInclude>
     <ClInclude Include="fluidsynth\src\bindings\fluid_ladspa.h">
       <Filter>Header Files\internal_include</Filter>
     </ClInclude>
@@ -163,9 +160,6 @@
     <ClInclude Include="fluidsynth\src\utils\fluid_sys_embedded.h">
       <Filter>Header Files\internal_include</Filter>
     </ClInclude>
-    <ClInclude Include="fluidsynth\src\utils\fluid_sys_glib.h">
-      <Filter>Header Files\internal_include</Filter>
-    </ClInclude>
     <ClInclude Include="fluidsynth\src\synth\fluid_tuning.h">
       <Filter>Header Files\internal_include</Filter>
     </ClInclude>
@@ -248,7 +242,6 @@
     <ClCompile Include="fluidsynth\src\rvoice\fluid_rvoice.c" />
     <ClCompile Include="fluidsynth\src\rvoice\fluid_rvoice_dsp.cpp" />
     <ClCompile Include="fluidsynth\src\rvoice\fluid_rvoice_event.c" />
-    <ClCompile Include="fluidsynth\src\rvoice\fluid_rvoice_mixer.c" />
     <ClCompile Include="fluidsynth\src\sfloader\fluid_defsfont.c" />
     <ClCompile Include="fluidsynth\src\sfloader\fluid_dls.cpp" />
     <ClCompile Include="fluidsynth\src\sfloader\fluid_samplecache.c" />
@@ -271,6 +264,7 @@
     <ClCompile Include="fluidsynth\src\utils\fluid_settings.c" />
     <ClCompile Include="fluidsynth\src\utils\fluid_sys.c" />
     <ClCompile Include="fluidsynth\src\utils\fluid_sys_cpp11.cpp" />
+    <ClCompile Include="fluidsynth\src\rvoice\fluid_rvoice_mixer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="VersionInfoLib.rc" />
